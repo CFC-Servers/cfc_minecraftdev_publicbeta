@@ -1,0 +1,16 @@
+filename = 'lost_aether_content-1.20.1-1.2.3.jar'
+name = 'Aether: Lost Content Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '758ffc122386cc392726f359dab3f98a4c1ecff85577748a0927d8933bbdeec42927a32185ffbc64c437d9a44b1489f6b7a60af3cfc6a381dea5689f44c1b778'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lr2r2Dpz/versions/PVl7uKx1/lost_aether_content-1.20.1-1.2.3.jar'
+
+[update.modrinth]
+mod-id = 'lr2r2Dpz'
+version = 'PVl7uKx1'

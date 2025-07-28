@@ -1,0 +1,16 @@
+filename = 'Mantle-1.20.1-1.11.71.jar'
+name = 'Mantle'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '652af06c5877fb8964e895188bc40702886b3d69a9caa8332c3562eeacfd4f9a79b64c644ea6db8b45fad1e679fd834b1c522c32abc19fda9a48a95a282b7cfe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Cg6Uc79H/versions/M8XCCqYJ/Mantle-1.20.1-1.11.71.jar'
+
+[update.modrinth]
+mod-id = 'Cg6Uc79H'
+version = 'M8XCCqYJ'

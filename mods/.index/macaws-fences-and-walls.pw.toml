@@ -1,0 +1,16 @@
+filename = 'mcw-fences-1.2.0-1.20.1forge.jar'
+name = "Macaw's Fences and Walls"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0c34a3919bdfeebe8e57f8b1e8097e0532a7710b91ff3ed0c18603e424c166ef65fee7cbb62f37113cadc6ad6b25ca9bb897e78465649e82128eb0b79d8f36f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GmwLse2I/versions/p0mowM7n/mcw-fences-1.2.0-1.20.1forge.jar'
+
+[update.modrinth]
+mod-id = 'GmwLse2I'
+version = 'p0mowM7n'

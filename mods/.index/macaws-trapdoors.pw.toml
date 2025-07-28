@@ -1,0 +1,16 @@
+filename = 'mcw-trapdoors-1.1.4-mc1.20.1forge.jar'
+name = "Macaw's Trapdoors"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e18c33b1b9025c8a249658f0656e0c4e38e19b5e9ee61ba57bbe0329c21fb1d36ee90f3b26dac22cb5e4b5599b35732c4b1f725541751295b6cb72f406920dc0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/n2fvCDlM/versions/eyOMFyxY/mcw-trapdoors-1.1.4-mc1.20.1forge.jar'
+
+[update.modrinth]
+mod-id = 'n2fvCDlM'
+version = 'eyOMFyxY'

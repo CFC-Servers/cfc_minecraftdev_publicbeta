@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.21.0-fabrication.jar'
+name = 'Project Red Fabrication'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '45d70eed644c9a9ca3d48b5b4a86c48ac388f28096d09f9b2ee14ae0b69756772a241ce32979c8626f57fed66cfa13e3bc93989c7493dfae23d65e66f05679d4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5H1VMCiY/versions/qKVevBTp/ProjectRed-1.20.1-4.21.0-fabrication.jar'
+
+[update.modrinth]
+mod-id = '5H1VMCiY'
+version = 'qKVevBTp'

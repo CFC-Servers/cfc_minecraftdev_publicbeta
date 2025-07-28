@@ -1,0 +1,16 @@
+filename = 'L_Enders_Cataclysm-3.09.jar'
+name = 'cataclysm'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a4c83262bf0ed3f9749a17e9e8fd981217155f627f781da022c4d11f1f9c12069b6f09c1f0e301f4b1399524663668f2882c725740629fe45fd3b7822430236e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/46KJle7n/versions/6kyVoJNv/L_Enders_Cataclysm-3.09.jar'
+
+[update.modrinth]
+mod-id = '46KJle7n'
+version = '6kyVoJNv'

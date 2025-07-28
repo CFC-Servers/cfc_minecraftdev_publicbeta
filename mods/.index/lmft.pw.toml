@@ -1,0 +1,16 @@
+filename = 'lmft-1.0.4+1.20.1-forge.jar'
+name = 'Load My F***ing Tags'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2a4c44f3b27280255bc1b7d0fea5ca01ea7957650afa869dd323eea4de45145b531b0fa85bb7892d23d65ee863013638d8d17362af60304611e7c123d620d41b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/67kVxsaO/versions/wtPd74Rj/lmft-1.0.4%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = '67kVxsaO'
+version = 'wtPd74Rj'

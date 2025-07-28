@@ -1,0 +1,16 @@
+filename = 'quark_delight_1.0.0_forge_1.20.1.jar'
+name = 'Quark Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '06e0c415a201f80969fdf8ff0eb1f07c8c7a5751'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5052580
+project-id = 963245

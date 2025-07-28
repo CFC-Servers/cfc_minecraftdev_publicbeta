@@ -1,0 +1,16 @@
+filename = 'emiffect-forge-1.1.2+mc1.20.1.jar'
+name = 'EMIffect'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd1aa78d400796abea326498d3143af8ae4d61fa9635339be36ae38f342c586e309216c4e2b8d19fd5eaaa17a24e60c590dc33059f910ea941398fd3ebf2b1324'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/705gWllI/versions/cwzXpY1E/emiffect-forge-1.1.2%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = '705gWllI'
+version = 'cwzXpY1E'
