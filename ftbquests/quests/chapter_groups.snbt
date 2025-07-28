@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "6D6D98FF652ED5F8", title: "Technology" }
+		{ id: "7C658D05BFA72509", title: "Magic" }
+		{ id: "4627013B1344C874", title: "Vanilla+" }
+		{ id: "3C4A16F4D77E2CAC", title: "Milestones" }
+	]
+}

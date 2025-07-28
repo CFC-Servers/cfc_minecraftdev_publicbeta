@@ -1,0 +1,39 @@
+
+#Client settings
+#Tooltips
+[tooltips]
+	#Should the mod change the color of tooltips?
+	coloredTooltips = true
+	#Should hunter food tooltips and tooltip's color be shown to all fractions? (Only shown to vampires by default)
+	hunterTooltipsForEveryone = false
+
+	#Colors of tooltips
+	[tooltips.tooltip_colors]
+		#What color (rgb) should be used for vampire food tooltips as the start color? (The shade it starts with)
+		#Default: 124, 40, 124
+		vampireFoodTooltipStartColor = [124, 40, 124]
+		#What color (rgb) should be used for vampire food tooltips as the end color? (The shade it ends with)
+		#Default: 50, 0, 70
+		vampireFoodTooltipEndColor = [50, 0, 70]
+		#What color (rgb) should be used for hunter food tooltips as the start color? (The shade it starts with)
+		#Default: 65, 65, 220
+		hunterFoodTooltipStartColor = [65, 65, 220]
+		#What color (rgb) should be used for hunter food tooltips as the end color? (The shade it ends with)
+		#Default: 30, 30, 90
+		hunterFoodTooltipEndColor = [30, 30, 90]
+		#What color (rgb) should be used for werewolf food tooltips as the start color? (Werewolves mod only) (The shade it starts with)
+		#Default: 250, 135, 0
+		werewolfFoodTooltipStartColor = [250, 135, 0]
+		#What color (rgb) should be used for werewolf food tooltips as the end color? (Werewolves mod only) (The shade it ends with)
+		#Default: 115, 45, 0
+		werewolfFoodTooltipEndColor = [115, 45, 0]
+
+	#AppleSkin
+	[tooltips.appleskin]
+		#Should AppleSkin tooltips' food values be fixed depending on player's race? (In case the player is a vampire, it'll show blood values for vampire food)
+		correctAppleSkinTooltips = true
+		#Should AppleSkin tooltips be hidden for human food if the player is a vampire?
+		hideAppleSkinHumanFoodTooltipsForVampires = true
+		#Should AppleSkin tooltips be hidden if the player is a werewolf for food they can't eat?
+		hideAppleSkinHumanFoodTooltipsForWerewolves = true
+

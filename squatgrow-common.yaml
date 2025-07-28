@@ -1,0 +1,32 @@
+!!dev.wuffs.squatgrow.config.SquatGrowConfig
+ae2Multiplier: 4
+allowAdventureTwerking: true
+chance: 0.5
+debug: false
+enableAE2Accelerator: true
+enableDirtToGrass: true
+enableMysticalCrops: true
+hoeTakesDamage: false
+ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:peony', 'minecraft:tall_grass',
+  'minecraft:netherrack', 'minecraft:warped_nylium', 'minecraft:crimson_nylium', 'supplementaries:wild_flax',
+  'biomesoplenty:blue_hydrangea', 'biomesoplenty:goldenrod', 'biomesoplenty:wildflower',
+  'biomesoplenty:white_petals', 'biomesoplenty:high_grass', 'biomesoplenty:icy_iris',
+  'minecraft:sunflower', 'minecraft:lilac', 'minecraft:rose_bush', 'biomesoplenty:watergrass',
+  'biomesoplenty:reed', 'biomesoplenty:cattail', 'biomesoplenty:tall_white_lavender',
+  'biomesoplenty:barley', 'biomesoplenty:tall_lavender', 'farmersdelight:wild_onions',
+  'farmersdelight:wild_carrots', 'farmersdelight:wild_cabbages', 'farmersdelight:wild_tomatoes',
+  'farmersdelight:wild_potatoes', 'farmersdelight:wild_beetroots', 'farmersdelight:wild_rice',
+  'theabyss:icora_flower', 'theabyss:tesla_rank', 'theabyss:icela_rank', 'theabyss:octavys_magynisius',
+  'theabyss:ice_rank']
+randomTickMultiplier: 4
+range: 3
+requireHoe: false
+requirements:
+  durabilityDamage: 1
+  enabled: true
+  equipmentRequirement: {}
+  heldItemRequirement: []
+  requiredEnchantment: ''
+  requiredItemTakesDamage: false
+sugarcaneMultiplier: 4
+useWhitelist: false

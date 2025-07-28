@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.21.0-illumination.jar'
+name = 'Project Red Illumination'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aa58890d6a213821fd121287b7d45840760c1d76879f3210dfda9e8194352349478350767cdc8534ca6af418a29896c0cdf0407f43004e0aca1f6a81f29a4900'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9a4Zqq1k/versions/jJetl6qK/ProjectRed-1.20.1-4.21.0-illumination.jar'
+
+[update.modrinth]
+mod-id = '9a4Zqq1k'
+version = 'jJetl6qK'

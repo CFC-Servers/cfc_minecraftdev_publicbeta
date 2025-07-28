@@ -1,0 +1,11 @@
+
+["World Generation"]
+	#Toggles whether Instrumentalist shops should generate in villages.
+	enableInstrumentalistShop = true
+	#Comma-separated list of mobs that can be given instruments to hold.
+	allowedInstrumentMobs = "minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton"
+
+[Other]
+	#The number of milliseconds a MIDI thread task should wait before timing out. Longer times may reduce instances of tasks failing but also reduce responsiveness of Transmitters.
+	doLogMidiTaskErrors = 15000
+

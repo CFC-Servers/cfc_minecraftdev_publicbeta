@@ -1,0 +1,16 @@
+filename = 'traveloptics-5.4.0-1.20.1.jar'
+name = "T.O Magic 'n Extras"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '30b8cc57704227129ef7c5f4b0f10e06b1a13edc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6803092
+project-id = 1046916

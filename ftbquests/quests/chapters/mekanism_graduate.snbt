@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_graduate"
+	group: "6D6D98FF652ED5F8"
+	id: "2FA07B8323981DEA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mekanism Graduate"
+}

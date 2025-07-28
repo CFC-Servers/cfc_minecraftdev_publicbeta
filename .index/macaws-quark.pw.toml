@@ -1,0 +1,16 @@
+filename = 'mcwquark-1.20.1-1.4.jar'
+name = "Macaw's Quark"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '185a9338462509846f5b032db9d9e2d289fd4a6dbad9456ac305e316b4e8bcdb970e40cbd6ba76639c440e62029607d0068749a302547c3c874d28d8167a16af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uLtxXFVm/versions/owWQZxrs/mcwquark-1.20.1-1.4.jar'
+
+[update.modrinth]
+mod-id = 'uLtxXFVm'
+version = 'owWQZxrs'

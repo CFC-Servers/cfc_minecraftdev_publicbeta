@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "申し訳ありませんが、このサーバーでプレイするには Plasmo Voice mod をインストールする必要があります。\nダウンロードはこちら: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "プレイヤーが見つかりません"
+version_not_supported = "申し訳ありませんが、あなたの Plasmo Voice バージョンはこのサーバーではサポートされていません。 %s"
+player_only_command = "プレイヤーだけがこのコマンドを実行できます"
+version_not_supported_click = "サポートされているバージョンをダウンロード"
+no_permissions = "&c申し訳ありませんが、このコマンドを実行する権限がありません。これがエラーだと思われる場合は、サーバー管理者にお問い合わせください。"
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "ミュート解除されました"
+empty_reason = "指定なし"
+permanently_muted = "ミュートされました。理由： %s"
+temporarily_muted = "%1$sはミュートされました。理由： %2$s"
+
+[server.pv.mutes.durations]
+hours = "%s 時間"
+seconds = "%s 秒間"
+weeks = "%s 週"
+minutes = "%s 分間"
+days = "%s 日"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "無制限"
+expiration_date = "yyyy/MM/dd"
+empty = "プレイヤーがミュートされていません"
+entry_muted_by = "%1$s は %2$sによってミュートされ、期限切れ: %3$s。理由: %4$s"
+entry = "%1$s、有効期限: %2$s。理由: %3$s"
+header = "ミュート中のプレイヤー："
+expire_at = "%1$s - %2$s"
+[server.pv.command.mute]
+already_muted = "%s は既にミュートされています"
+usage = "使い方: /vmute <player> [時間] [理由]"
+permanently_muted = "%1$s はミュートされています。理由: %2$s"
+temporarily_muted = "ミュートされた %1$s %2$s。理由: %3$s"
+[server.pv.command.list]
+message = "クライアント (%1$s/%2$s): %3$s"
+empty = "Plasmo Voice がインストールされているプレイヤーはいません"
+[server.pv.command.reconnect]
+message = "再接続パケットを送信"
+[server.pv.command.reload]
+message = "設定をリロードしました"
+[server.pv.command.unmute]
+unmuted = "ミュート解除 %s"
+usage = "使い方: /vunmute <player>"
+not_muted = "%s はミュートされていません"
+[client.pv.activation]
+proximity = "プロキシミティ"

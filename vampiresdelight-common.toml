@@ -1,0 +1,67 @@
+
+#Common settings
+#Village
+[village]
+	#Should Farmers buy garlic? (May reduce chances of other trades appearing)
+	farmersBuyGarlic = true
+	#Should the Wandering Trader sell some of vampirism's and this mod's items? (Including seeds and some blocks)
+	wanderingTraderSellsVampirismItems = true
+
+#Blocks
+[blocks]
+	#How often (in percentage) should Bloody Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
+	#Range: 0.0 ~ 1.0
+	bloodySoilBoostChance = 0.2
+
+#Items
+[items]
+	#Should the Alchemical Cocktail burn ground when thrown? Recommended to set this to "false" on servers with claims.
+	alchemicalCocktailBurnsGround = true
+	#What should be the radius of Alchemical Cocktail fire splash?
+	#Range: 1.0 ~ 99.0
+	alchemicalCocktailSplashRadius = 3.5
+	#What should be the maximum stack size of the Alchemical Cocktail?
+	#Range: 1 ~ 64
+	alchemicalCocktailStackSize = 8
+
+#Effects
+[effects]
+	#Should the weird jelly Sunscreen effect be replaced with Jump Boost?
+	replaceWeirdJellySunscreenWithJumpboost = false
+	#Should the bat meat and food made of it have chance of giving Wither effect when eaten by humans?
+	batMeatWithersHumans = true
+	#Should the blessing effect banish ghosts just like phantoms?
+	blessingHelpsAgainstGhosts = true
+	#Should 'weak' armor such as leather and chain dissolve fully because of Clothes Dissolving effect?
+	armorDissolvesFully = true
+
+#Enchantments
+[enchantments]
+	#Should it be possible to apply Backstabbing enchantment to some hunter axes and stakes?
+	backstabbingCanBeAppliedToHunterWeapon = true
+	#What should be the maximum amount of hearts that Vampire Bite enchantment should heal?
+	#Range: 0.5 ~ 10.0
+	vampireBiteMaxHealingValue = 1.5
+	#With what chance should Vampire Bite enchantment regenerate health?
+	#Range: 1 ~ 100
+	vampireBiteChanceLevel1 = 20
+	#Range: 1 ~ 100
+	vampireBiteChanceLevel2 = 25
+	#Range: 1 ~ 100
+	vampireBiteChanceLevel3 = 30
+	#Should Vampire Bite enchantment be disabled?
+	#It won't be removed from the game, but it'll be impossible to apply it to tools and it won't heal the player.
+	disableVampireBite = false
+
+#World generation
+[world]
+	#Should this mod add some of its items as extra chest loot across Minecraft and Vampirism structures?
+	generateVDChestLoot = true
+	#Should a Cooking Pot on a Campfire be generated in hunter camps?
+	generateCookingPotInHunterCamp = true
+	#Should a Cooking Pot be generated on the campfire near hunter camps? By default it's generated on the fireplace in the middle of it.
+	generateCookingPotNearHunterCamp = false
+	#With what chance should a Cooking Pot on a Campfire be generated in hunter camps? It doesn't mean that it'll spawn with this chance in every camp, but the ones with crafting table or hunter table.
+	#Range: 1 ~ 100
+	cookingPotInHunterCampSpawnChance = 60
+

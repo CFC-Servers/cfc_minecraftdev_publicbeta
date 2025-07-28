@@ -1,0 +1,16 @@
+filename = 'aquamirae-6.API15.jar'
+name = 'Aquamirae'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9a134941b020d33dcdbc8843eefcb3bfa9f5e68a7269b2f48f86f8c5dae1d0759c8431a94e77377ce001b72ef11014728bf83a2ac9fc590bf94496f4aef47ef7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/k23mNPhZ/versions/7lX4KLFc/aquamirae-6.API15.jar'
+
+[update.modrinth]
+mod-id = 'k23mNPhZ'
+version = '7lX4KLFc'

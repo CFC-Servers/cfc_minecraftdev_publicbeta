@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage_2"
+	group: "6D6D98FF652ED5F8"
+	icon: "refinedstorage:creative_controller"
+	id: "5B08086EDAE76884"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5364067432333ADE"
+			rewards: [{
+				count: 4
+				id: "71D3DFDB3F37D834"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0597EE57D6C50143"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "A Refined Start"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5364067432333ADE"]
+			id: "250DE2EABA95E1A1"
+			rewards: [{
+				count: 4
+				id: "61CF9454BF42C9E2"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "207A876223CF182D"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			title: "Casing the joint"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0582803E0D45CF16"]
+			id: "46DEBDDF1C0160AC"
+			rewards: [
+				{
+					id: "40C289FC4CA48B9A"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C80D6FFC184D042"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04B9B100E5AB9330"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "CONTROLLER?? I HARDLY"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["250DE2EABA95E1A1"]
+			id: "770BDA2F26924474"
+			rewards: [{
+				count: 8
+				id: "54AFEA8759C9F4B7"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "67C1DA4D55556825"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			title: "PROCESSOR?? I HARDLY KNOW HER!!!"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["250DE2EABA95E1A1"]
+			id: "0582803E0D45CF16"
+			rewards: [{
+				count: 8
+				id: "14BB1F75C8F03AC6"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "54BEA1AE4DA12C1F"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			title: "processor.....? i know her."
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["250DE2EABA95E1A1"]
+			id: "26B0FE36610B3805"
+			rewards: [{
+				count: 8
+				id: "5EED2FBB52FD11D8"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "226AD6B2BC2CB956"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			title: "Processor? I kinda know her"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26B0FE36610B3805"]
+			id: "150B678EEB9B9D5C"
+			rewards: [
+				{
+					count: 8
+					id: "00CAFFCA18015F32"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B56AED2E8BCBEA0"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A2DB377A295AD55"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "Gotta get GRID of this guy.."
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["770BDA2F26924474"]
+			id: "4DA43638A2936409"
+			rewards: [
+				{
+					count: 4
+					id: "653AB424D6595FA7"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B1AD79807D67199"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52343CA224A5777D"
+				item: "refinedstorage:1k_storage_part"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Disk Jockey"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["150B678EEB9B9D5C"]
+			id: "4428AC3DD35FE356"
+			rewards: [
+				{
+					count: 4
+					id: "257467FA66F5790D"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "634F6DD710CCF325"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B14D592CCB21DB9"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04F46AEA504BE081"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "SATA or NVMe?"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DA43638A2936409"]
+			id: "594C090E1E763F6B"
+			rewards: [
+				{
+					count: 4
+					id: "3641862F3CD35D9B"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67C1B95B79BB64AF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1555F82338EF471C"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11EF3D4D9635CA7B"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			title: "M.2? Screw you!!"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594C090E1E763F6B"]
+			id: "39066713A6E5CA36"
+			rewards: [
+				{
+					count: 16
+					id: "5A8D295D1C9E669C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EF3DA9622CDD29D"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C99CC7B0B9A37A5"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			title: "Disk-o Fever"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39066713A6E5CA36"]
+			id: "3BB25E02924A5C4F"
+			rewards: [
+				{
+					count: 8
+					id: "36FD3AFCB7CFC3C4"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "138E1ABB29F19ECC"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "259C868B65C49013"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			title: "Big Disk Energy"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["250DE2EABA95E1A1"]
+			id: "11AA3C5584841675"
+			rewards: [{
+				count: 4
+				id: "05E96BB745B29C6B"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6E42C1D6CAC2BC29"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			title: "RG-6"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"150B678EEB9B9D5C"
+				"46DEBDDF1C0160AC"
+			]
+			id: "309A929BB678E0BE"
+			rewards: [
+				{
+					count: 2
+					id: "0AD5834C5A6BF2BD"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C8DB6A830EAB93C"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22DDB5AE07A0D65F"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7110791E607F3488"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C0A8874A33C16FA"
+					item: {
+						Count: 4
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Pattern Pending"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["309A929BB678E0BE"]
+			id: "1002F7FC35994DD0"
+			rewards: [
+				{
+					count: 12
+					id: "63A2352548832CA8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58BBDBF07884499D"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45F0E7B224C3AA30"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "I just craft my pants"
+			x: 2.0d
+			y: -7.5d
+		}
+	]
+	title: "Refined Storage"
+}

@@ -1,0 +1,16 @@
+filename = 'mcw-lights-1.1.2-mc1.20.1forge.jar'
+name = "Macaw's Lights and Lamps"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2ee82b5ca8d964cff83ea41d38bfa5e4c9a9bedb7bccf891ce269d25238bfeb3f46b428a4d6ff6695a69907046cec22b356f3feefe94564bfa4cc081df8fcb72'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/w4an97C2/versions/gqevfDHf/mcw-lights-1.1.2-mc1.20.1forge.jar'
+
+[update.modrinth]
+mod-id = 'w4an97C2'
+version = 'gqevfDHf'

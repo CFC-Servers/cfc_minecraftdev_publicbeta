@@ -1,0 +1,16 @@
+filename = '[1.20.1] SecurityCraft v1.10.0.1.jar'
+name = 'SecurityCraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1890516f36604a123125f8565faff1a90fa13aea7f9d6fb00dde21aa8318992dc7e9f9de971d11f7767916193f8dc2d41ac629ded16e77d73a7b769807b952fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v8jzRtAt/versions/KdmbFCxl/%5B1.20.1%5D SecurityCraft v1.10.0.1.jar'
+
+[update.modrinth]
+mod-id = 'v8jzRtAt'
+version = 'KdmbFCxl'

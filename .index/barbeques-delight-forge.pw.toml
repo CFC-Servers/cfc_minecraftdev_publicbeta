@@ -1,0 +1,16 @@
+filename = 'barbequesdelight-1.0.5.jar'
+name = "Barbeque's Delight [Forge/NeoForge]"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '14414e70b4c71cd79bcb3a05425c227a18e8df217300809f4aae2a720e8148f7b840c5b7b360b35982907e5785df692705a3e5c561d6897b29ded7a716b005ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rtu7uERF/versions/pIDqhAOp/barbequesdelight-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'rtu7uERF'
+version = 'pIDqhAOp'

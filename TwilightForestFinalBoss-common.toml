@@ -1,0 +1,49 @@
+
+["Final Boss Attacks"]
+
+	["Final Boss Attacks"."Arm cannon projectile (multiple of these can be set to true at once)"]
+		#Makes arm cannon attack shoot ghast fireballs
+		"Should Shoot Ghast Fireballs" = true
+		#Makes arm cannon attack shoot blaze fireballs
+		"Should Shoot Blaze Fireballs" = false
+		#Makes arm cannon attack shoot dragon fireballs
+		"Should Shoot Dragon Fireballs" = true
+		#Makes arm cannon attack shoot wither skulls
+		"Should Shoot Wither Skulls" = true
+
+	["Final Boss Attacks"."Cube of Annihilation attack"]
+		#Sets the range that the cube of annihilation can hit entities from (this can be a negative value)
+		"Cube Of Annihilation Range" = 5.0
+		#Sets the damage that the cube of annihilation attack does
+		"Cube Of Annihilation Damage" = 4.0
+
+	["Final Boss Attacks"."Stomp attack"]
+		#Sets the range (in cubic blocks) for the stomp attack to hit entities
+		"Stomp Attack Range" = 10.0
+		#Sets the damage that the stomp attack does
+		"Stomp Attack Damage" = 10.0
+		#Sets the y vector that the stomp attack applies to hit entities
+		"Stomp Attack Y Launch" = 2.5
+		#Sets the x and z vectors that the stomp attack applies to hit entities
+		"Stomp Attack XZ Launch" = 2.0
+
+	["Final Boss Attacks"."Lobbed fireballs attack"]
+		#Sets the max x and z spread for the lobbed fireballs
+		"Lobbed Fireball XZ Range" = 1.0
+		#Sets the y shoot distance for the lobbed fireballs
+		"Lobbed Fireball Y Range" = 2.0
+
+["Final Boss Special Abilities"]
+	#Makes the Castle Keeper summon the main Twilight Forest bosses
+	"Summon Main Bosses" = true
+	#Makes the Castle Keeper summon the mini bosses from Twilight Forest bosses
+	"Summon Mini Bosses" = false
+	#Makes the Castle Keeper summon harbinger cubes randomly when hit
+	"Summon Harbinger Cubes" = true
+	#Sets the chance for a harbinger cube to be summoned when the castle keeper is hit (0-1)
+	"Harbinger Cube Spawn Chance" = 0.3
+	#Makes the Castle Keeper summon adherents randomly when hit
+	"Summon Adherents" = true
+	#Sets the chance for an adherent to be summoned when the Castle Keeper is hit (0-1)
+	"Adherent Spawn Chance" = 0.3
+

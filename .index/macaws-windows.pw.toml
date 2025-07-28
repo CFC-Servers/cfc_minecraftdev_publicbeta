@@ -1,0 +1,16 @@
+filename = 'mcw-windows-2.4.0-1.20.1forge.jar'
+name = "Macaw's Windows"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c61c89491a1e50989b6ef8f605368dd327690600be073e5475c9a26b6d12b8020305f9199518c573b92041a8eceb869cca3bcfdad16e4a3376d3b542fec77f32'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/C7I0BCni/versions/KzTPAR92/mcw-windows-2.4.0-1.20.1forge.jar'
+
+[update.modrinth]
+mod-id = 'C7I0BCni'
+version = 'KzTPAR92'

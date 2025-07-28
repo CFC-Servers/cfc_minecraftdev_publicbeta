@@ -1,0 +1,16 @@
+filename = 'gravestonecurioscompat-1.20.x-Forge-3.0.0.jar'
+name = 'gravestonecurioscompat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '5e6114fc9f3efc9e468ff6fc5665190356d4b53c5cd73331df174d61e1c3f4b11b7e3c812253f9b6a03b3c808b06796b3402d71f9510a524e94238fdc95e63fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NaiL8bPN/versions/jkxbFNyf/gravestonecurioscompat-1.20.x-Forge-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'NaiL8bPN'
+version = 'jkxbFNyf'

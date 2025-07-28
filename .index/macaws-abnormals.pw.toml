@@ -1,0 +1,16 @@
+filename = 'mcwabnormals-1.20.1-1.2.jar'
+name = "Macaw's Abnormals"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f76d1cd63da9ab3637be15d36dd53b5528da3d80066eb714d3f7a1f8c51e90eaeb11d488cbbc3803af92b6f50e503477718b21516298a33db3fb4dca173ca75'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jZrq3qzM/versions/e42SPN5h/mcwabnormals-1.20.1-1.2.jar'
+
+[update.modrinth]
+mod-id = 'jZrq3qzM'
+version = 'e42SPN5h'

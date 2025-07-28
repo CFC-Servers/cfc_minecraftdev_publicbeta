@@ -1,0 +1,629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "6D6D98FF652ED5F8"
+	icon: "thermal:phytogro"
+	id: "37B811B1ECD5CEF8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D5200F9431EF27E"]
+			id: "7EF8D8AB3CE8F71A"
+			tasks: [{
+				id: "342E0325F0569AE3"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "2CAADEF66A95BE2A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "688064205DB0CF2C"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70452CEDA817A14C"]
+			id: "5D5200F9431EF27E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7682A2F1FEA34F0C"
+				item: "thermal:tin_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EF8D8AB3CE8F71A"]
+			id: "1E6B25F16E4D88CE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6000DCFEC19EBEAF"
+				item: "thermal:copper_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["37AAA32AA3E5B3CF"]
+			id: "4F553AC4B2938E55"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5A63E1646DBE3BFA"
+				item: "thermal:bronze_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.75d
+		}
+		{
+			dependencies: ["2CAADEF66A95BE2A"]
+			id: "667C9F4A90AD1968"
+			tasks: [{
+				id: "22A2FC9FD3F9E4FC"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CAADEF66A95BE2A"]
+			id: "78056C29E0AC2F92"
+			tasks: [{
+				id: "0FB2B0DCA93BB3CF"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"78056C29E0AC2F92"
+				"667C9F4A90AD1968"
+			]
+			id: "70452CEDA817A14C"
+			tasks: [{
+				id: "2CFE7D794C9A129E"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["667C9F4A90AD1968"]
+			id: "423516B27DE559CB"
+			tasks: [{
+				id: "32B9DA6C4C560345"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["667C9F4A90AD1968"]
+			id: "4EDDD5F8375A2D76"
+			tasks: [{
+				id: "471508ED4204740D"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["667C9F4A90AD1968"]
+			id: "33236041986D8587"
+			tasks: [{
+				id: "2C96A5BD56B2A80E"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78056C29E0AC2F92"]
+			id: "05FD4B6F8DBE0897"
+			tasks: [{
+				id: "6152253F22F6BF52"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D5200F9431EF27E"]
+			id: "2B3A5A96C0BB3C9F"
+			tasks: [{
+				id: "46CD4E8F8C175FF1"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D5200F9431EF27E"]
+			id: "3904E5B9C24063A4"
+			tasks: [{
+				id: "23C2F2569D6F9703"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "07E2B0D57E9D43DE"
+			tasks: [{
+				id: "0E123B3A38A218FB"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "3B65C581F058627B"
+			tasks: [{
+				id: "27565902B43CFECA"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "190511FA04AC8590"
+			tasks: [{
+				id: "14FE8DAEA74D622D"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"190511FA04AC8590"
+				"07E2B0D57E9D43DE"
+				"3B65C581F058627B"
+			]
+			id: "6010012771778D97"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0D303C8F65E8161C"
+				item: "thermal:lead_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6010012771778D97"]
+			id: "37AAA32AA3E5B3CF"
+			tasks: [{
+				id: "57703FBA6B66F62D"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5B63C2817FCFB3D2"]
+			id: "18570762DE349E2B"
+			tasks: [{
+				id: "7ED79A48D9CCE65E"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "6059553CAA268ABF"
+			tasks: [{
+				id: "0231E428596B3430"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["78056C29E0AC2F92"]
+			id: "5896CA5A340048FB"
+			tasks: [{
+				id: "055EE9B3C0A8B415"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "306A5C48E6D1E358"
+			tasks: [{
+				id: "45D9291C5EB5C997"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"215050F854885531"
+				"327373416D20C49E"
+				"5A765C7E067947EC"
+			]
+			id: "43EC504B37D02091"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E746799EF54CB6C"
+				item: "thermal:constantan_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["667C9F4A90AD1968"]
+			id: "14ACBCE046F742E1"
+			tasks: [{
+				id: "15EB2B372661E597"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F553AC4B2938E55"]
+			id: "215050F854885531"
+			tasks: [{
+				id: "45755D01856A8016"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4F553AC4B2938E55"]
+			id: "5A765C7E067947EC"
+			tasks: [{
+				id: "1F4BF88381D0D7F5"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4F553AC4B2938E55"]
+			id: "327373416D20C49E"
+			tasks: [{
+				id: "4659073C2995075B"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "13C24A42126E4F28"
+			tasks: [{
+				id: "3A6F814068426764"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "64D4E5ADF14FB7FC"
+			tasks: [{
+				id: "4C3C3764B0E908AE"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "35CCDB6C8AB804F5"
+			tasks: [{
+				id: "1EFC6ADB2EB1CB64"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "6A481894FD6C5E04"
+			tasks: [{
+				id: "5B53C43B4C624FF0"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			title: "The De-what??"
+			x: 3.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "1AF5EEE2E9AB7286"
+			tasks: [{
+				id: "1099A3810BE055DD"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"13C24A42126E4F28"
+				"64D4E5ADF14FB7FC"
+			]
+			id: "0CCB0C3AC806CAAD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "211D877736291ED0"
+				item: "thermal:invar_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -23.25d
+		}
+		{
+			dependencies: ["1E6B25F16E4D88CE"]
+			id: "2134C6F34B6FAF12"
+			tasks: [{
+				id: "7D2E497CDF4416F5"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "2A3914B21F08409C"
+			tasks: [{
+				id: "161078B622160FE9"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43EC504B37D02091"]
+			id: "3F0A006C55A69B36"
+			tasks: [{
+				id: "68E8FE1F1CE0ECA2"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "331C3E20FC132676"
+			tasks: [{
+				id: "2535A5B7C0FD7F80"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "59794128C8CC40E6"
+			tasks: [{
+				id: "4839E0B6A001C0AD"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "742A2310CA567390"
+			tasks: [{
+				id: "466454A29CA52637"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "1C8001DE59AD9F5C"
+			tasks: [{
+				id: "6762713A6DF5B49E"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "7210D93C7AAC51C9"
+			tasks: [{
+				id: "2B7D15CEA6A8D97E"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "4839DB99A74E57A9"
+			tasks: [{
+				id: "51E70E09F7D528C8"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"4839DB99A74E57A9"
+				"331C3E20FC132676"
+				"7210D93C7AAC51C9"
+				"59794128C8CC40E6"
+			]
+			id: "091E159C5E7685B3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0C7CEC9CCC00E6D4"
+				item: "thermal:lumium_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["091E159C5E7685B3"]
+			id: "08C98475648D22B5"
+			tasks: [{
+				id: "0A4C3AD04649A7BD"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["08C98475648D22B5"]
+			id: "5B63C2817FCFB3D2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6745B79385EBD1D8"
+				item: "thermal:electrum_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5B63C2817FCFB3D2"]
+			id: "084693453D9F168A"
+			tasks: [{
+				id: "5125EAFDF6D23929"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["0CCB0C3AC806CAAD"]
+			id: "36A2D617E062F444"
+			tasks: [{
+				id: "6773395A414AB8F3"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"084693453D9F168A"
+				"18570762DE349E2B"
+			]
+			id: "5703FBED8DC3C065"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2F999820EC1604C4"
+				item: "thermal:enderium_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["5703FBED8DC3C065"]
+			id: "3AC0F556DEE12B86"
+			tasks: [{
+				id: "00653C81D88F901C"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -34.5d
+		}
+	]
+	title: "Thermal Series"
+}

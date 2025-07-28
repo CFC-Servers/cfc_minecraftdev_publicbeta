@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = cfc_defaultpanorama
+  speed = 1.0
+  fov = 120
+  angle = 25
+  start_rotation = 0
+}

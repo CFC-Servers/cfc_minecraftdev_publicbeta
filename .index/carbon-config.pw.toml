@@ -1,0 +1,16 @@
+filename = 'CarbonConfig-1.20-1.2.7.1.jar'
+name = 'Carbon Config'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '122fb165e3bd351b9d963d0aca305fd87c42112d43695b55e55eeb17c286a235d112c868274e890f7667f944fb3054ef6d3bb30087ad1321f19a3c9df2763f75'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1jDdpgcc/versions/o63gVepY/CarbonConfig-1.20-1.2.7.1.jar'
+
+[update.modrinth]
+mod-id = '1jDdpgcc'
+version = 'o63gVepY'

@@ -1,0 +1,16 @@
+filename = 'mcw-doors-1.1.2-mc1.20.1forge.jar'
+name = "Macaw's Doors"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '447b00a2d0a2721af4a36c4330b0b0e7c04a8c9b2f003cb3121015969d2f41cd3b4839eb300d125f52d9db30dea3333bb4e23c9f2f13f3a869453e854a370404'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kNxa8z3e/versions/yP3Gpe6J/mcw-doors-1.1.2-mc1.20.1forge.jar'
+
+[update.modrinth]
+mod-id = 'kNxa8z3e'
+version = 'yP3Gpe6J'

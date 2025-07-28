@@ -1,0 +1,16 @@
+filename = 'emissive-plugin-1.20.1-2.0.4-forge.jar'
+name = 'MoreMcmeta Emissive Textures'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1282ae1aad8000fd0976a984786022c452d43d9a173928e80bb91baf9c5125fac75330c813a1e9df33b560597887f9ede6af0e6c97e8f788e5f46f009879f8f2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oQ0dIGZg/versions/rkJ3fswP/emissive-plugin-1.20.1-2.0.4-forge.jar'
+
+[update.modrinth]
+mod-id = 'oQ0dIGZg'
+version = 'rkJ3fswP'

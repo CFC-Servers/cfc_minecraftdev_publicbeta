@@ -1,0 +1,16 @@
+filename = 'AetherVillages-1.20.1-1.0.7-forge.jar'
+name = 'Aether Villages'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0234eab5913eb6cfa24729244065fdaf81339811e0aa017b796b7bb58317a1f71920610dd69c80f262f6f5df24e2c67886d7b9a9e0ad0321745a077911745ff4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3P2XnNW6/versions/hoWwSyiT/AetherVillages-1.20.1-1.0.7-forge.jar'
+
+[update.modrinth]
+mod-id = '3P2XnNW6'
+version = 'hoWwSyiT'

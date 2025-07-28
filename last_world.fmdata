@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = /home/coldcomfort/.local/share/PrismLauncher/instances/cfc_minecraftdev/minecraft/saves/TestWorld31
+}
+

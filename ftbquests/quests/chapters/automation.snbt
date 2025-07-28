@@ -1,0 +1,469 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automation"
+	group: "3C4A16F4D77E2CAC"
+	id: "6250DE55870B76E9"
+	images: [
+		{
+			height: 1.0d
+			image: "chipped:block/oak_log/reinforced_oak_log_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "unity:block/stone_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["I hardly know her :troll:"]
+			icon: "minecraft:oak_log"
+			id: "68DFB5615AF3964F"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "Woodworker I hardly know her"
+				icon: "minecraft:oak_log"
+				id: "0077311E5EBCE640"
+				team_reward: false
+				title: "Tier 1: Basic Woodworker"
+				type: "toast"
+			}]
+			subtitle: "The first tier of the wood milestones."
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "686FA8536B3DA0A9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "2D72FBE79F84B90E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "5A6128EE142A6D5B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+			]
+			title: "Tier 1: Basic Woodworker"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68DFB5615AF3964F"]
+			description: ["I hardly know her :troll:"]
+			icon: "minecraft:mangrove_log"
+			id: "50EB654548A9DEB7"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "Amateur with handling wood"
+				icon: "minecraft:mangrove_log"
+				id: "1275333042416ADC"
+				team_reward: false
+				title: "Tier 2: Advanced Woodworker"
+				type: "toast"
+			}]
+			subtitle: "Amateur with handling wood"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "337A2574F579895B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "4CD672882F2CA989"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2048L
+					id: "47140734611A11F9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+			]
+			title: "Tier 2: Advanced Woodworker"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50EB654548A9DEB7"]
+			description: ["I hardly know her :troll:"]
+			icon: "integrateddynamics:menril_log"
+			id: "48FF665932345817"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "You are not a treehugger"
+				icon: "integrateddynamics:menril_log"
+				id: "4494FDA89DC55E79"
+				team_reward: false
+				title: "Tier 3: Elite Woodworker"
+				type: "toast"
+			}]
+			subtitle: "You are NOT a treehugger"
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "0FF2E502366BF2D1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3072L
+					id: "2FBE67D0192DFA6A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6144L
+					id: "0DBCBEF77C2667D1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+			]
+			title: "Tier 3: Elite Woodworker"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48FF665932345817"]
+			description: ["I hardly know her :troll:"]
+			icon: "theabyss:rena_log"
+			id: "69AE16DFFCBB9A66"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "Aquainted with hardWOOD"
+				icon: "theabyss:rena_log"
+				id: "69F3AE0497670F15"
+				team_reward: false
+				title: "Tier 4: Ultimate Woodworker"
+				type: "toast"
+			}]
+			subtitle: "Aquainted with hardWOOD."
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "7A7435144D8D8DAC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4096L
+					id: "01B68730D441BA85"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8192L
+					id: "14465D6BDD6CB905"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+			]
+			title: "Tier 4: Ultimate Woodworker"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69AE16DFFCBB9A66"]
+			description: ["I hardly know her :troll:"]
+			icon: "quark:ancient_log"
+			id: "678D5DA63E02175A"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "Look down at your splintered hands."
+				icon: "quark:ancient_log"
+				id: "2408F9F21C519B63"
+				team_reward: false
+				title: "Tier 5: Seasoned Wood Toucher"
+				type: "toast"
+			}]
+			subtitle: "Look down at your splintered hands."
+			tasks: [
+				{
+					consume_items: true
+					count: 1280L
+					id: "5F0C45AB712DFF52"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5120L
+					id: "5937C06E36208790"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10240L
+					id: "4B990D435B61FFCB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+			]
+			title: "Tier 5: Seasoned Wood Toucher"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48FF665932345817"]
+			description: ["gearing it im gearing it im gearing it im gearing it"]
+			id: "265C81669C86DCCC"
+			rewards: [{
+				auto: "enabled"
+				description: "I'm gearing it I'm gearing it I'm gearing it"
+				icon: "enderio:wood_gear"
+				id: "1A926B7D6AF522AC"
+				title: "I'm gearing it"
+				type: "toast"
+			}]
+			subtitle: "oghh im gearing it"
+			tasks: [{
+				count: 1024L
+				id: "39071AC5A7E34244"
+				item: "enderio:wood_gear"
+				optional_task: true
+				title: "I'm gearing it"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["I hardly know her :troll:"]
+			icon: "minecraft:stone"
+			id: "691F5B5583EC9414"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				description: "Woodworker I hardly know her"
+				icon: "minecraft:oak_log"
+				id: "31D8DA2F73863A4D"
+				team_reward: false
+				title: "Tier 1: Basic Woodworker"
+				type: "toast"
+			}]
+			subtitle: "The first tier of the stone milestones."
+			tasks: [
+				{
+					consume_items: true
+					id: "091ACFF2D9586512"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:stone"
+						}
+					}
+					optional_task: true
+					title: "Any Stone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5E60AFB20CF1F329"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:stone_bricks"
+						}
+					}
+					optional_task: true
+					title: "Any Stone bricks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0D111EF1CDC3CF06"
+					item: "minecraft:smooth_stone"
+					optional_task: true
+					title: "Any Smoothstone"
+					type: "item"
+				}
+			]
+			title: "Tier 1: Basic Pulverizer"
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: "Machinery"
+}

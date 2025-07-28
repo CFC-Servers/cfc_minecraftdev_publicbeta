@@ -1,0 +1,3 @@
+#If true, then any items that drop from block breaking will be converted.
+enableBlockDropsConversion = true
+

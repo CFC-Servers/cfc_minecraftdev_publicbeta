@@ -1,0 +1,16 @@
+filename = 'rarcompat-1.20.1-0.1.7.jar'
+name = 'Relics: Artifacts Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9d2cbdd957fa1fb2168f029db9237764f843defed967e5b7dde3a6257c3c026172e6019327834d9b76c5f4ccf0c9d17168aa6faf1910bcb5dbb998cf9f9a2dc6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GnU07giL/versions/2JeSjkKo/rarcompat-1.20.1-0.1.7.jar'
+
+[update.modrinth]
+mod-id = 'GnU07giL'
+version = '2JeSjkKo'

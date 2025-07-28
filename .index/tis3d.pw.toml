@@ -1,0 +1,16 @@
+filename = 'tis3d-MC1.20.1-forge-1.7.7+354a583.jar'
+name = 'TIS-3D'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5021f98d4fdf0d2206661d6d29dd57f0d03da032a5c411769eb064c4283d80e7fe4e241af48635cfcd9b9d4c91e7281f4f3f8feb99384e7115c9f685bd3c0977'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/L23x7zL8/versions/9xvcu1ob/tis3d-MC1.20.1-forge-1.7.7%2B354a583.jar'
+
+[update.modrinth]
+mod-id = 'L23x7zL8'
+version = '9xvcu1ob'

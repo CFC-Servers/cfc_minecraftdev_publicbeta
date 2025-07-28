@@ -1,0 +1,16 @@
+filename = 'BetterFusionReactor-1.20.1-1.4.8.jar'
+name = 'Better Fusion Reactor for Mekanism'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e4a45fd6d778827561bedb7c444ec6a6232325338659f1d7876f423aa4d21e8301b4d498718f1c8835a7efd85070618554838ab254538239a2e19a6619c5f393'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZUDRV4lN/versions/Y4zBDft9/BetterFusionReactor-1.20.1-1.4.8.jar'
+
+[update.modrinth]
+mod-id = 'ZUDRV4lN'
+version = 'Y4zBDft9'

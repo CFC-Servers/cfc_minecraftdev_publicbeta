@@ -1,0 +1,17 @@
+
+#General Config. This config is synced from server to client.
+[general]
+
+	#APT Settings
+	[general.apt]
+		#How much gas (in mB) can the input tank hold.
+		#Range: > 1
+		inputPerAntimatter = 5000
+		#Duration of a recipe (in ticks). Formula: defaultDuration * (gasInputAmount / 100)
+		#Range: > 1
+		defaultDuration = 200
+		#Amount of energy (in Joules) which can be stored in the APT.
+		energyStorage = "10000000"
+		#Energy needed (in Joules) per tick to process the recipe.
+		energyPerInput = "100000"
+

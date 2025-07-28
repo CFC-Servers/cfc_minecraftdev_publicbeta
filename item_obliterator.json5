@@ -1,0 +1,172 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "examplemod:example_item",
+    //"sophisticatedbackpacks:stack_upgrade_starter_tier",
+    //"sophisticatedbackpacks:stack_upgrade_tier_1",
+    //"sophisticatedbackpacks:stack_upgrade_tier_2",
+    "sophisticatedbackpacks:stack_upgrade_tier_3",
+    "sophisticatedbackpacks:stack_upgrade_tier_4",
+    //"sophisticatedbackpacks:stack_downgrade_tier_1",
+    //"sophisticatedbackpacks:stack_downgrade_tier_2",
+    //"sophisticatedbackpacks:stack_downgrade_tier_3",
+    "sophisticatedbackpacks:stack_upgrade_omega_tier",
+    "sophisticatedbackpacks:tank_upgrade",
+    "sophisticatedbackpacks:pump_upgrade",
+    "sophisticatedbackpacks:battery_upgrade",
+    "sophisticatedbackpacks:advanced_pump_upgrade",
+    "sophisticatedbackpacks:xp_pump_upgrade",
+    "sophisticatedbackpacks:anvil_upgrade",
+    "sophisticatedbackpacks:smithing_upgrade",
+    "sophisticatedbackpacks:infinity_upgrade",
+    "sophisticatedbackpacks:survival_infinity_upgrade",
+    "sophisticatedbackpacks:alchemy_upgrade",
+    "sophisticatedbackpacks:advanced_alchemy_upgrade",
+    "sophisticatedbackpacks:inception_upgrade",
+    "sophisticatedstorage:feeding_upgrade",
+    "sophisticatedstorage:advanced_feeding_upgrade",
+    //"sophisticatedstorage:stack_upgrade_tier_1",
+    //"sophisticatedstorage:stack_upgrade_tier_1_plus",
+    //"sophisticatedstorage:stack_upgrade_tier_2",
+    "sophisticatedstorage:stack_upgrade_tier_3",
+    "sophisticatedstorage:stack_upgrade_tier_4",
+    "sophisticatedstorage:stack_upgrade_tier_5",
+    //"sophisticatedstorage:stack_downgrade_tier_1",
+    //"sophisticatedstorage:stack_downgrade_tier_2",
+    //"sophisticatedstorage:stack_downgrade_tier_3",
+    "sophisticatedstorage:stack_upgrade_omega_tier",
+    "sophisticatedstorage:compression_upgrade",
+    "sophisticatedstorage:infinity_upgrade",
+    "sophisticatedstorage:survival_infinity_upgrade",
+    "mekanismadditions:walkie_talkie",
+    "tacz:minigun",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "industrialforegoing:infinity_backpack",
+    "industrialforegoing:infinity_launcher",
+    "industrialforegoing:infinity_nuke",
+    "alexscaves:nuclear_bomb",
+    "powah:energy_cable_spirited",
+    "powah:energy_cable_nitro",
+    "powah:energizing_rod_spirited",
+    "powah:energizing_rod_nitro",
+    "powah:furnator_niotic",
+    "powah:furnator_spirited",
+    "powah:furnator_nitro",
+    "powah:magmator_niotic",
+    "powah:magmator_spirited",
+    "powah:magmator_nitro",
+    "powah:thermo_generator_niotic",
+    "powah:thermo_generator_spirited",
+    "powah:thermo_generator_nitro",
+    "powah:solar_panel_starter",
+    "powah:solar_panel_basic",
+    "powah:solar_panel_hardened",
+    "powah:solar_panel_blazing",
+    "powah:solar_panel_niotic",
+    "powah:solar_panel_spirited",
+    "powah:solar_panel_nitro",
+    "powah:reactor_starter",
+    "powah:reactor_basic",
+    "powah:reactor_hardened",
+    "powah:reactor_blazing",
+    "powah:reactor_niotic",
+    "powah:reactor_spirited",
+    "powah:reactor_nitro",
+    "powah:player_transmitter_niotic",
+    "powah:player_transmitter_spirited",
+    "powah:player_transmitter_nitro",
+    "powah:energy_hopper_niotic",
+    "powah:energy_hopper_spirited",
+    "powah:energy_hopper_nitro",
+    "powah:energy_discharger_niotic",
+    "powah:energy_discharger_spirited",
+    "powah:energy_discharger_nitro",
+    "powah:uraninite_block",
+    "powah:deepslate_uraninite_ore_poor",
+    "powah:deepslate_uraninite_ore",
+    "powah:deepslate_uraninite_ore_dense",
+    "powah:uraninite_ore_poor",
+    "powah:uraninite_ore",
+    "powah:uraninite_ore_dense",
+    "createaddition:connector",
+    "createaddition:small_light_connector",
+    "createaddition:large_connector",
+    "createaddition:spool",
+    "createaddition:copper_spool",
+    "createaddition:gold_spool",
+    "createaddition:electrum_spool",
+    "createaddition:festive_spool",
+    "securitycraft:universal_block_reinforcer_lvl1",
+    "securitycraft:universal_block_reinforcer_lvl2",
+    "securitycraft:universal_block_reinforcer_lvl3",
+    "projectred_exploration:white_backpack",
+    "projectred_exploration:orange_backpack",
+    "projectred_exploration:magenta_backpack",
+    "projectred_exploration:light_blue_backpack",
+    "projectred_exploration:yellow_backpack",
+    "projectred_exploration:lime_backpack",
+    "projectred_exploration:pink_backpack",
+    "projectred_exploration:gray_backpack",
+    "projectred_exploration:light_gray_backpack",
+    "projectred_exploration:cyan_backpack",
+    "projectred_exploration:purple_backpack",
+    "projectred_exploration:blue_backpack",
+    "projectred_exploration:brown_backpack",
+    "projectred_exploration:green_backpack",
+    "projectred_exploration:red_backpack",
+    "projectred_exploration:black_backpack",
+    "tconstruct:piggy_backpack"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}
