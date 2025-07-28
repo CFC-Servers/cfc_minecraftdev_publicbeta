@@ -32,7 +32,8 @@ var arr_rmrecipe = [
     <item:ae2:calculation_processor_press>, //6
     <item:ae2:engineering_processor_press>, //7
     <item:ae2:logic_processor_press>, //8
-    <item:ae2:silicon_press> //9
+    <item:ae2:silicon_press>, //9
+    <item:mekanism:modification_station> //10
 ];
 
 for arr_ingredient in arr_rmrecipe { // removes recipes in the array so they can be replaced below
@@ -48,37 +49,123 @@ craftingTable.addShaped("cfc_digitalminer",arr_rmrecipe[0], [
     [<item:mekanism:teleportation_core>,<item:evolvedmekanism:overclocked_induction_cell>,<item:mekanism:teleportation_core>]
 ]);
 
+// modification table made harder will replacement
+
+craftingTable.addShaped("cfc_modificationtable",arr_rmrecipe[10], [
+    [<item:mekanism:hdpe_sheet>,<item:mekanism:personal_chest>,<item:mekanism:hdpe_sheet>],
+    [<item:mekanism:ultimate_control_circuit>,<item:mekanism:steel_casing>,<item:mekanism:ultimate_control_circuit>],
+    [<item:mekanism:hdpe_sheet>,<item:mekanism:pellet_polonium>,<item:mekanism:hdpe_sheet>]
+]);
+
 //mekasuit & meka-tool recipe replacements
 
 craftingTable.addShaped("cfc_mekasuit_helmet",arr_rmrecipe[1], [
     [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:dense_tier_installer>,<item:evolvedmekanism:dense_control_circuit>],
     [<item:mekanism:hdpe_sheet>,<item:minecraft:netherite_helmet>,<item:mekanism:hdpe_sheet>],
-    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:dense_induction_cell>,<item:mekanism:pellet_polonium>]
+    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:multiversal_induction_provider>,<item:mekanism:pellet_polonium>]
 ]);
 craftingTable.addShaped("cfc_mekasuit_bodyarmor",arr_rmrecipe[2], [
     [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:dense_tier_installer>,<item:evolvedmekanism:dense_control_circuit>],
     [<item:mekanism:hdpe_sheet>,<item:minecraft:netherite_chestplate>,<item:mekanism:hdpe_sheet>],
-    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:dense_induction_cell>,<item:mekanism:pellet_polonium>]
+    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:multiversal_induction_provider>,<item:mekanism:pellet_polonium>]
 ]);
 craftingTable.addShaped("cfc_mekasuit_pants",arr_rmrecipe[3], [
     [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:dense_tier_installer>,<item:evolvedmekanism:dense_control_circuit>],
     [<item:mekanism:hdpe_sheet>,<item:minecraft:netherite_leggings>,<item:mekanism:hdpe_sheet>],
-    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:dense_induction_cell>,<item:mekanism:pellet_polonium>]
+    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:multiversal_induction_provider>,<item:mekanism:pellet_polonium>]
 ]);
 craftingTable.addShaped("cfc_mekasuit_boots",arr_rmrecipe[4], [
     [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:dense_tier_installer>,<item:evolvedmekanism:dense_control_circuit>],
     [<item:mekanism:hdpe_sheet>,<item:minecraft:netherite_boots>,<item:mekanism:hdpe_sheet>],
-    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:dense_induction_cell>,<item:mekanism:pellet_polonium>]
+    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:multiversal_induction_provider>,<item:mekanism:pellet_polonium>]
 ]);
 
 
 craftingTable.addShaped("cfc_meka_tool",arr_rmrecipe[5], [
    [<item:evolvedmekanism:dense_tier_installer>,<item:mekanism:configurator>,<item:evolvedmekanism:dense_tier_installer>],
     [<item:mekanism:hdpe_sheet>,<item:mekanism:atomic_disassembler>,<item:mekanism:hdpe_sheet>],
-    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:dense_induction_cell>,<item:mekanism:pellet_polonium>]
+    [<item:mekanism:pellet_polonium>,<item:evolvedmekanism:multiversal_induction_provider>,<item:mekanism:pellet_polonium>]
 ]);
 
 print("[CFCMC_CR] [INFO] If you're seeing this it means that the meka series armaments probably loaded correctly <3");
+// personal chest and barrel recipe fix
+
+//chest
+
+craftingTable.addShaped("cfc_advanced_pchest",<item:evolvedmekanism:advanced_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:advanced_control_circuit>,<item:mekanism:personal_chest>,<item:mekanism:advanced_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_elite_pchest",<item:evolvedmekanism:elite_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:elite_control_circuit>,<item:evolvedmekanism:advanced_personal_chest>,<item:mekanism:elite_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_ultimate_pchest",<item:evolvedmekanism:ultimate_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:ultimate_control_circuit>,<item:evolvedmekanism:elite_personal_chest>,<item:mekanism:ultimate_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_overclocked_pchest",<item:evolvedmekanism:overclocked_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:overclocked_control_circuit>,<item:evolvedmekanism:ultimate_personal_chest>,<item:evolvedmekanism:overclocked_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_quantum_pchest",<item:evolvedmekanism:quantum_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:quantum_control_circuit>,<item:evolvedmekanism:overclocked_personal_chest>,<item:evolvedmekanism:quantum_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_dense_pchest",<item:evolvedmekanism:dense_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:quantum_personal_chest>,<item:evolvedmekanism:dense_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_multiversal_pchest",<item:evolvedmekanism:multiversal_personal_chest>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:multiversal_control_circuit>,<item:evolvedmekanism:dense_personal_chest>,<item:evolvedmekanism:multiversal_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+
+//barrel
+
+craftingTable.addShaped("cfc_advanced_pbarrel",<item:evolvedmekanism:advanced_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:advanced_control_circuit>,<item:mekanism:personal_barrel>,<item:mekanism:advanced_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_elite_pbarrel",<item:evolvedmekanism:elite_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:elite_control_circuit>,<item:evolvedmekanism:advanced_personal_barrel>,<item:mekanism:elite_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_ultimate_pbarrel",<item:evolvedmekanism:ultimate_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:mekanism:ultimate_control_circuit>,<item:evolvedmekanism:elite_personal_barrel>,<item:mekanism:ultimate_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_overclocked_pbarrel",<item:evolvedmekanism:overclocked_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:overclocked_control_circuit>,<item:evolvedmekanism:ultimate_personal_barrel>,<item:evolvedmekanism:overclocked_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_quantum_pbarrel",<item:evolvedmekanism:quantum_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:quantum_control_circuit>,<item:evolvedmekanism:overclocked_personal_barrel>,<item:evolvedmekanism:quantum_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_dense_pbarrel",<item:evolvedmekanism:dense_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:dense_control_circuit>,<item:evolvedmekanism:quantum_personal_barrel>,<item:evolvedmekanism:dense_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("cfc_multiversal_pbarrel",<item:evolvedmekanism:multiversal_personal_barrel>, [
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:glass/silica>,<tag:items:forge:ingots/steel>],
+    [<item:evolvedmekanism:multiversal_control_circuit>,<item:evolvedmekanism:dense_personal_barrel>,<item:evolvedmekanism:multiversal_control_circuit>],
+    [<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>,<tag:items:forge:ingots/steel>]
+]);
+
 
 //ae2 inscriber presses recipe replacements
 

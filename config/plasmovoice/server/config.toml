@@ -8,7 +8,7 @@ check_for_updates = true
 
 [host]
 ip = "45.62.160.73"
-port = 0
+port = 24454
 
 [voice]
 # Supported sample rates:
