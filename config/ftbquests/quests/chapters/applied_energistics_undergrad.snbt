@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_undergrad"
+	group: "6D6D98FF652ED5F8"
+	id: "46A2E63D14924E8D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "23040719626AAEE0"
+			subtitle: "YOU NEED ENERGY!!"
+			tasks: [{
+				id: "536EEE4F94FF76A7"
+				title: "I HAVE AN ENERGY SOURCE!!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "389743E6AE8EDDA8"
+			tasks: [{
+				id: "0DB1095C65D12332"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "41C07BDECD116E05"
+			tasks: [{
+				id: "3F375B48A44F8ED1"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "33E7B51C4017B022"
+			tasks: [{
+				id: "54F041B1DB0349FC"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "1BB3C8314B9B665A"
+			tasks: [{
+				id: "6B271B8B8417870F"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "7D65A96D504E016D"
+			tasks: [{
+				id: "151BFF39E4895FC5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:silicon"
+					}
+				}
+				title: "Any #forge:silicon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E8375FAE6AC4385"]
+			id: "7BCDD42F1A9A1FF7"
+			tasks: [{
+				id: "79252D859C043286"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7BCDD42F1A9A1FF7"]
+			id: "2E1551C63EF97638"
+			tasks: [{
+				id: "7FE3385D56330873"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1BB3C8314B9B665A"
+				"1BFD47FB7F62AD2B"
+			]
+			id: "7CA981A782EA84D6"
+			tasks: [{
+				id: "5D67594DE416D033"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"389743E6AE8EDDA8"
+				"7D65A96D504E016D"
+			]
+			id: "1BFD47FB7F62AD2B"
+			tasks: [{
+				id: "682733C0D9A1F97C"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"33E7B51C4017B022"
+				"1BFD47FB7F62AD2B"
+			]
+			id: "7BD15C4B63DF89E2"
+			tasks: [{
+				id: "1A90FEF693D6BD60"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"41C07BDECD116E05"
+				"1BFD47FB7F62AD2B"
+			]
+			id: "242948548DF48992"
+			tasks: [{
+				id: "7B392C3B6151E0A3"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "52D834737F18ADDF"
+			tasks: [{
+				id: "1C379A0EF4E27323"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23040719626AAEE0"]
+			id: "535A0E604105617E"
+			tasks: [{
+				id: "45C82DF8C8E70CDD"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"535A0E604105617E"
+				"52D834737F18ADDF"
+			]
+			id: "1E8375FAE6AC4385"
+			tasks: [{
+				id: "4EDBCADD476D4C24"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E8375FAE6AC4385"]
+			id: "79E60392A37873AC"
+			tasks: [{
+				id: "23441520D9BA001C"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"79E60392A37873AC"
+				"7CA981A782EA84D6"
+				"2E1551C63EF97638"
+			]
+			id: "59A9DE7FCD9DD29B"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "5A0032C7913A1748"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59A9DE7FCD9DD29B"]
+			id: "30D0753FB9B90D94"
+			tasks: [{
+				id: "7740071D319167BB"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["242948548DF48992"]
+			id: "072C512E3A444DBF"
+			tasks: [{
+				id: "28D8A55128A9AF32"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7BD15C4B63DF89E2"
+				"072C512E3A444DBF"
+			]
+			id: "458E2013E0466F4B"
+			tasks: [{
+				id: "6D4CFF9C2279440D"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["458E2013E0466F4B"]
+			id: "09840BDCB30D8AC9"
+			tasks: [{
+				id: "7DAE89ED9718968F"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["09840BDCB30D8AC9"]
+			id: "5C0267A5F9C79C83"
+			tasks: [{
+				id: "2B632AED2CC92D2C"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5C0267A5F9C79C83"]
+			id: "73163BD70B344CE9"
+			tasks: [{
+				id: "5C0BFB76EF1DF2A0"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["30D0753FB9B90D94"]
+			id: "1D6B23B71B86D662"
+			tasks: [{
+				id: "29AEB2C92EA0B636"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"30D0753FB9B90D94"
+				"1D6B23B71B86D662"
+				"7BD15C4B63DF89E2"
+			]
+			id: "6B459859AEEDEC30"
+			tasks: [{
+				id: "234D80E71DED80FE"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["30D0753FB9B90D94"]
+			id: "0EEADD2CB7FF7706"
+			tasks: [{
+				id: "09E94184789B611B"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"072C512E3A444DBF"
+				"0EEADD2CB7FF7706"
+			]
+			id: "6C6585AF40D2ED87"
+			tasks: [{
+				id: "08BF57901211A11E"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"458E2013E0466F4B"
+				"0EEADD2CB7FF7706"
+			]
+			id: "063FCA1A294865A2"
+			tasks: [{
+				id: "58822C47461E5217"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"09840BDCB30D8AC9"
+				"0EEADD2CB7FF7706"
+			]
+			id: "7782C27BA937B984"
+			tasks: [{
+				id: "162FE35F732CF12B"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5C0267A5F9C79C83"
+				"0EEADD2CB7FF7706"
+			]
+			id: "7E9449B84B94AD1B"
+			tasks: [{
+				id: "1BC1B2599CB1CCC7"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"73163BD70B344CE9"
+				"0EEADD2CB7FF7706"
+			]
+			id: "7439F32E56E31029"
+			tasks: [{
+				id: "2BFA62F04AE461EA"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.5d
+		}
+	]
+	title: "Applied Energistics Undergrad"
+}

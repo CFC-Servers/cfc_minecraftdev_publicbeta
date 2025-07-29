@@ -33,7 +33,8 @@ var arr_rmrecipe = [
     <item:ae2:engineering_processor_press>, //7
     <item:ae2:logic_processor_press>, //8
     <item:ae2:silicon_press>, //9
-    <item:mekanism:modification_station> //10
+    <item:mekanism:modification_station>, //10
+    <item:ae2:charger> //11
 ];
 
 for arr_ingredient in arr_rmrecipe { // removes recipes in the array so they can be replaced below
@@ -185,6 +186,37 @@ craftingTable.addShaped("cfc_silicon_press",arr_rmrecipe[9], [
     [<tag:items:forge:silicon>,<item:minecraft:iron_block>,<tag:items:forge:silicon>],
     [<item:minecraft:air>,<item:minecraft:quartz>,<item:minecraft:air>]
 ]);
+
+//balancing the charger and adding a recipe for certus quartz
+
+craftingTable.addShaped("cfc_ae2charger",arr_rmrecipe[11], [
+    [<item:minecraft:iron_ingot>,<item:minecraft:copper_ingot>,<item:minecraft:iron_ingot>],
+    [<item:minecraft:anvil>,<item:minecraft:quartz>,<item:minecraft:air>],
+    [<item:minecraft:iron_ingot>,<item:minecraft:copper_ingot>,<item:minecraft:iron_ingot>]
+]);
+
+craftingTable.addShaped("cfc_certus_quartz",<item:ae2:certus_quartz_crystal>, [
+    [<item:ae2:certus_quartz_dust>,<item:ae2:certus_quartz_dust>,<item:minecraft:air>],
+    [<item:ae2:certus_quartz_dust>,<item:ae2:certus_quartz_dust>,<item:minecraft:air>]
+]);
+<recipetype:ae2:charger>.addJsonRecipe("cfc_ae2bal_sky_stone", {
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "result": {
+    "item": "ae2:sky_stone_block"
+  }
+});
+<recipetype:ae2:charger>.addJsonRecipe("cfc_ae2bal_certus_quartz", {
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "item": "ae2:certus_quartz_dust"
+  }
+});
 
 //Mekanism Venus sand broken recipe fix
 

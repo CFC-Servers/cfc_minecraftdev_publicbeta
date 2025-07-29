@@ -1,5 +1,5 @@
 [client.pv.activation]
-proximity = "プロキシミティ"
+proximity = "近くで聞こえる"
 
 [server.pv.command.list]
 empty = "Plasmo Voice がインストールされているプレイヤーはいません"

@@ -4,7 +4,7 @@
 	filename: "mekanism_graduate"
 	group: "6D6D98FF652ED5F8"
 	id: "2FA07B8323981DEA"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -44,6 +44,7 @@
 				"1446F9CA1A1BACE8"
 			]
 			id: "14630781FEE5B0D6"
+			shape: "pentagon"
 			tasks: [{
 				id: "309311AFC72D3D8E"
 				title: "Senior Engineer"
@@ -60,7 +61,7 @@
 				item: "mekanism:dosimeter"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -70,7 +71,7 @@
 				item: "mekanism:geiger_counter"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -80,7 +81,7 @@
 				item: "mekanism:hazmat_mask"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -90,7 +91,7 @@
 				item: "mekanism:hazmat_gown"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -100,7 +101,7 @@
 				item: "mekanism:hazmat_pants"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -110,7 +111,7 @@
 				item: "mekanism:hazmat_boots"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -125,12 +126,13 @@
 				"784BFB54B83AECD2"
 			]
 			id: "27837004B55D40AF"
+			shape: "pentagon"
 			tasks: [{
 				id: "2749203EC1E51E22"
 				title: "Radiological Technician"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: -6.5d
 		}
 		{
@@ -140,7 +142,7 @@
 				item: "mekanism:ingot_uranium"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -150,7 +152,7 @@
 				item: "mekanism:ingot_lead"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.0d
 			y: -4.5d
 		}
 		{
@@ -161,7 +163,7 @@
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: -8.5d
 		}
 		{
@@ -172,7 +174,7 @@
 				item: "mekanismgenerators:fission_reactor_port"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.0d
 			y: -8.5d
 		}
 		{
@@ -183,7 +185,7 @@
 				item: "mekanismgenerators:fission_reactor_logic_adapter"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 8.0d
 			y: -8.5d
 		}
 		{
@@ -194,7 +196,7 @@
 				item: "mekanismgenerators:fission_fuel_assembly"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.0d
 			y: -8.5d
 		}
 		{
@@ -205,7 +207,7 @@
 				item: "mekanismgenerators:control_rod_assembly"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.0d
 			y: -8.5d
 		}
 		{
@@ -216,7 +218,7 @@
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.5d
 			y: -8.5d
 		}
 		{
@@ -227,97 +229,62 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"27837004B55D40AF"
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "1C913AD46BAB0726"
 			tasks: [{
 				id: "42CA3A3FE1B68684"
 				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"27837004B55D40AF"
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "24DA682FDB82E6EC"
 			tasks: [{
 				id: "30CA3AD5BF7FB903"
 				item: "mekanismgenerators:turbine_casing"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -9.5d
 		}
 		{
-			dependencies: [
-				"27837004B55D40AF"
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "518B8F7A6E003CD4"
 			tasks: [{
 				id: "5FDE08197FE49B1F"
 				item: "mekanismgenerators:turbine_vent"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"27837004B55D40AF"
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "3EB49212CBCF9BB7"
 			tasks: [{
 				id: "0FC2C655F7162433"
 				item: "mekanismgenerators:turbine_blade"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"27837004B55D40AF"
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "369653ACC98BE729"
 			tasks: [{
 				id: "35269C24A2C40BCD"
 				item: "mekanismgenerators:turbine_rotor"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -6.5d
 		}
 		{
@@ -327,46 +294,30 @@
 				item: "mekanism:dust_sulfur"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.0d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"12A280FF38F0D22A"
-				"43C854504CEF82DE"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["637DC2C718560FFA"]
 			id: "5BFEE3858C386066"
 			tasks: [{
 				id: "45D5A50A72C6C413"
 				item: "mekanism:pellet_plutonium"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -10.5d
+			x: 9.5d
+			y: -12.5d
 		}
 		{
-			dependencies: [
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"12A280FF38F0D22A"
-				"43C854504CEF82DE"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["637DC2C718560FFA"]
 			id: "242C9A96EB8D9DA5"
 			tasks: [{
 				id: "5BEEE014F005976B"
 				item: "mekanism:pellet_polonium"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -10.5d
+			x: 10.5d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -379,8 +330,8 @@
 				item: "mekanism:sps_casing"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -12.5d
+			x: 9.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -393,8 +344,8 @@
 				item: "mekanism:sps_port"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -12.5d
+			x: 10.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -407,8 +358,8 @@
 				item: "mekanism:supercharged_coil"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -12.5d
+			x: 11.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -422,8 +373,9 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -14.5d
+			title: "WHATS THE MATTA WITH YOUUU"
+			x: 10.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["061F33EF3F4B7736"]
@@ -433,8 +385,8 @@
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -14.5d
+			x: 3.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["14630781FEE5B0D6"]
@@ -506,7 +458,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["3DE678C8920498E5"]
+			dependencies: [
+				"3DE678C8920498E5"
+				"6CE144A5E4C6ABB7"
+			]
 			id: "06D3645005E141F3"
 			tasks: [{
 				id: "1D09DB452F5F58B5"
@@ -577,12 +532,13 @@
 		{
 			dependencies: ["2B6996BE3256FE6C"]
 			id: "575738434FF5D1C0"
+			shape: "pentagon"
 			tasks: [{
 				id: "1405EEF8BC145F8A"
-				title: "Advanced Nucleosynthesis"
+				title: "Basic Nucleosynthesis"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: -9.0d
 		}
 		{
@@ -600,42 +556,31 @@
 			y: -12.0d
 		}
 		{
-			dependencies: [
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "2AFEE39C89FE8D97"
 			tasks: [{
 				id: "30B1C83DA9AAA766"
 				item: "mekanismgenerators:rotational_complex"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"752ACC01AE3395A8"
-				"79EEBACFEABE001E"
-				"371F346D42DEE86F"
-				"071609E98E8BC082"
-				"31D6023FAA5B49C9"
-			]
+			dependencies: ["7862F27912865124"]
 			id: "42B05E85F58DEAA6"
 			tasks: [{
 				id: "13A1676A80DBC8B0"
 				item: "mekanismgenerators:electromagnetic_coil"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["5CA204D69EA45A85"]
 			id: "65A17ABE95C3DBFB"
+			shape: "square"
 			tasks: [{
 				id: "60575D8033E1E37F"
 				item: "mekanism:mekasuit_helmet"
@@ -647,6 +592,7 @@
 		{
 			dependencies: ["5CA204D69EA45A85"]
 			id: "5975920BFCF21F46"
+			shape: "square"
 			tasks: [{
 				id: "4CCAB172C3CE4A2A"
 				item: "mekanism:mekasuit_bodyarmor"
@@ -658,6 +604,7 @@
 		{
 			dependencies: ["5CA204D69EA45A85"]
 			id: "6B66BD13E6B0CEA7"
+			shape: "square"
 			tasks: [{
 				id: "274D9769D982100D"
 				item: "mekanism:mekasuit_pants"
@@ -669,6 +616,7 @@
 		{
 			dependencies: ["5CA204D69EA45A85"]
 			id: "27A2646AD58915BA"
+			shape: "square"
 			tasks: [{
 				id: "13752EAD69560C6D"
 				item: "mekanism:mekasuit_boots"
@@ -680,6 +628,8 @@
 		{
 			dependencies: ["5CA204D69EA45A85"]
 			id: "73CC17CA298738DE"
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "111A396047E417CE"
 				item: "mekanism:meka_tool"
@@ -698,6 +648,131 @@
 			}]
 			x: -3.5d
 			y: -8.0d
+		}
+		{
+			dependencies: [
+				"27837004B55D40AF"
+				"637DC2C718560FFA"
+			]
+			id: "7862F27912865124"
+			shape: "pentagon"
+			subtitle: "LET MY ATOMS BRIGHTEN MY LIGHTS!"
+			tasks: [{
+				id: "3BAC43AA747A7D96"
+				title: "Turbine Specialist"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"752ACC01AE3395A8"
+				"79EEBACFEABE001E"
+				"371F346D42DEE86F"
+				"071609E98E8BC082"
+				"12A280FF38F0D22A"
+				"43C854504CEF82DE"
+				"31D6023FAA5B49C9"
+			]
+			id: "637DC2C718560FFA"
+			shape: "pentagon"
+			tasks: [{
+				id: "5A533856ABC8DAD6"
+				title: "Reactor Operator"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"2B6996BE3256FE6C"
+				"061F33EF3F4B7736"
+			]
+			id: "7EB337FF4E7AB3E2"
+			shape: "pentagon"
+			tasks: [{
+				id: "6B0F4FD0ED787E00"
+				title: "Quantum Physicist "
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["7EB337FF4E7AB3E2"]
+			id: "534E15F33EAE3915"
+			tasks: [{
+				id: "221B82913AC42BAF"
+				item: "evolvedmekanism:apt_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7EB337FF4E7AB3E2"]
+			id: "5081E1FA95E1795C"
+			tasks: [{
+				id: "6CE7B22C0DDE5937"
+				item: "evolvedmekanism:apt_port"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"5081E1FA95E1795C"
+				"534E15F33EAE3915"
+			]
+			id: "1505C3BA09C55CFA"
+			tasks: [{
+				id: "6C904FC94CBEAF5F"
+				item: "evolvedmekanism:ingot_better_gold"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1505C3BA09C55CFA"]
+			id: "6CE144A5E4C6ABB7"
+			shape: "pentagon"
+			tasks: [{
+				id: "762F15D887C4C0ED"
+				title: "Advanced Nucleosynthesis"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6B66BD13E6B0CEA7"
+				"65A17ABE95C3DBFB"
+				"5975920BFCF21F46"
+				"27A2646AD58915BA"
+				"73CC17CA298738DE"
+			]
+			hide_dependency_lines: true
+			icon: "blahaj:reaper"
+			id: "39D421A9BCE9183E"
+			rewards: [{
+				id: "5DB249B518D24CDD"
+				item: "blahaj:reaper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "77D7606A17B7D332"
+				title: "Mekanistic Master"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -16.5d
 		}
 	]
 	title: "Mekanism Graduate"
