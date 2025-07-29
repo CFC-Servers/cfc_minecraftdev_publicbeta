@@ -120,6 +120,9 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,

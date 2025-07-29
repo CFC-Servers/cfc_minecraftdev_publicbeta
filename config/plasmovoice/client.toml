@@ -4,6 +4,8 @@ check_for_updates = true
 
 key_bindings = []
 
+[servers.274735b9-82dc-4878-b413-1f69d077439b.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 16
 
 [addons.pv-addon-soundphysics]
 mic_reverb = true
@@ -14,7 +16,7 @@ enabled = true
 disabled = false
 microphone_disabled = false
 activation_threshold = -30.0
-input_device = ""
+input_device = "Filtered Microphone for RZ19-0229 Gaming Microphone Analog Stereo Source"
 output_device = ""
 disable_input_device = false
 use_javax_input = false

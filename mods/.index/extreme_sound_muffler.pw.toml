@@ -1,0 +1,16 @@
+filename = 'ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar'
+name = 'Extreme sound muffler'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2cd3be9ac975118f10d21c379db7ad1d5625c854ea45f7299da340abbd34b9d2863eda4a967ee1b57a1f78f1c08d8a86fb66b6ac4c9aadb9390071cf1c64e5d4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5IIKsxiL/versions/tTO5f5iv/ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '5IIKsxiL'
+version = 'tTO5f5iv'
