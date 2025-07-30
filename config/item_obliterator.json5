@@ -133,7 +133,9 @@
     "projectred_exploration:green_backpack",
     "projectred_exploration:red_backpack",
     "projectred_exploration:black_backpack",
-    "tconstruct:piggy_backpack"
+    "tconstruct:piggy_backpack",
+    "projectred_transmission:low_load_power_wire",
+    "projectred_transmission:low_load_framed_power_wire"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

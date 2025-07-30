@@ -27,7 +27,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5364067432333ADE"]
+			dependencies: [
+				"5364067432333ADE"
+				"7A23742B6AC89063"
+			]
 			id: "250DE2EABA95E1A1"
 			rewards: [{
 				count: 4
@@ -395,6 +398,18 @@
 			title: "I just craft my pants"
 			x: 2.0d
 			y: -7.5d
+		}
+		{
+			id: "7A23742B6AC89063"
+			size: 0.5d
+			subtitle: "\"energy? i hardly know her\""
+			tasks: [{
+				id: "556F2A9EF8FFB54D"
+				title: "psst.. you need an energy source."
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "Refined Storage"

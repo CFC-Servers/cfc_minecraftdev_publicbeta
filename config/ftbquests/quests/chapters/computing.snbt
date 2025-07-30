@@ -1,0 +1,638 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computing"
+	group: "6D6D98FF652ED5F8"
+	id: "6421693AC67B6DAF"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "208B8810E1BD8B59"
+			tasks: [{
+				id: "7B9FF4218258B05A"
+				title: "i submit my sanity to the code"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["208B8810E1BD8B59"]
+			id: "4447442D83A79C8E"
+			tasks: [{
+				id: "5FEB3ACD978BD25C"
+				item: "tis3d:casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["208B8810E1BD8B59"]
+			id: "35854CAA505C3F71"
+			tasks: [{
+				id: "5A622CD7B8F5EB26"
+				item: "tis3d:controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "38A727F464FE6654"
+			tasks: [{
+				id: "2E4EEBB62E4EF448"
+				item: "tis3d:audio_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "2E687415DF629F73"
+			tasks: [{
+				id: "1BD32689E911AAC2"
+				item: "tis3d:display_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "6C9A3A905E0627DA"
+			tasks: [{
+				id: "304D0D19C159A042"
+				item: "tis3d:execution_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "58DBA7C4F46F0D9C"
+			tasks: [{
+				id: "5321C3809D860664"
+				item: "tis3d:facade_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "3A40D7880021CB60"
+			tasks: [{
+				id: "10B78C77BC67B325"
+				item: "tis3d:infrared_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "5B5ECD8CF03116F5"
+			tasks: [{
+				id: "0416680528590193"
+				item: "tis3d:keypad_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "77D28525F3AA5391"
+			tasks: [{
+				id: "01585F0BD94EDEB0"
+				item: "tis3d:queue_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "25CC49B457E0D650"
+			tasks: [{
+				id: "48748C445A724645"
+				item: "tis3d:random_access_memory_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "6AE2BEBE2F72FBBA"
+			tasks: [{
+				id: "3B2D79A4B1C70DC1"
+				item: "tis3d:random_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "536D44E797534D1C"
+			tasks: [{
+				id: "45ABB08223030CA9"
+				item: "tis3d:read_only_memory_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "03B4A48B87D84523"
+			tasks: [{
+				id: "078A6ECA27826287"
+				item: "tis3d:redstone_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "57F8BA45DABA2B11"
+			tasks: [{
+				id: "775C1376029A57DE"
+				item: "tis3d:sequencer_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "20978F8658BB7AF5"
+			tasks: [{
+				id: "28E20A4B023A8012"
+				item: "tis3d:serial_port_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "7913DFB39F2A7E81"
+			tasks: [{
+				id: "430023D8C755C63B"
+				item: "tis3d:stack_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "5A579548423828A9"
+			tasks: [{
+				id: "1758FA197AD28229"
+				item: "tis3d:terminal_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52A1ED4CEF80EC64"]
+			id: "4471F16141BEE1C6"
+			tasks: [{
+				id: "130064541FE8CD21"
+				item: "tis3d:timer_module"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"35854CAA505C3F71"
+				"4447442D83A79C8E"
+			]
+			id: "52A1ED4CEF80EC64"
+			tasks: [{
+				id: "5744E45E5559EC69"
+				title: "are you sure about assembly?"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["208B8810E1BD8B59"]
+			id: "31AD08A8DF69D949"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74B4C06003ADDBB0"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "6B46C3C8173F6282"
+			tasks: [{
+				id: "47B6BE99E7831333"
+				item: "computercraft:computer_advanced"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "3365CDB83FFB2014"
+			tasks: [{
+				id: "45F59760F7389E6A"
+				item: "computercraft:disk_drive"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "5C46738FB7757489"
+			tasks: [{
+				id: "5719D560A7238F7E"
+				item: "computercraft:printer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "4AC08784A9E0852C"
+			tasks: [{
+				id: "130755A10FC74E76"
+				item: "computercraft:speaker"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "678D98BB22E9F9EA"
+			tasks: [{
+				id: "1E9C8542E0FB158D"
+				item: "computercraft:redstone_relay"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "5B671A4DA6C30A29"
+			tasks: [{
+				id: "250AB1968DACA318"
+				item: {
+					Count: 1
+					id: "computercraft:turtle_normal"
+					tag: {
+						RightUpgrade: "advancedperipherals:chatty_turtle"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B671A4DA6C30A29"]
+			id: "662201B8A718F2F7"
+			tasks: [{
+				id: "02613A1092D79B72"
+				item: {
+					Count: 1
+					id: "computercraft:turtle_advanced"
+					tag: {
+						RightUpgrade: "advancedperipherals:chatty_turtle"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31AD08A8DF69D949"]
+			id: "10D3C6A8BF617C14"
+			tasks: [{
+				id: "5879419A54105753"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "computercraft:wired_modem"
+					}
+				}
+				title: "Any #computercraft:wired_modem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10D3C6A8BF617C14"]
+			id: "5C3ADC9A48B4ED65"
+			tasks: [{
+				id: "60CB9B0089F98287"
+				item: "computercraft:wireless_modem_normal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C3ADC9A48B4ED65"]
+			id: "75EF9A6F7A2FAE8F"
+			tasks: [{
+				id: "3BA638AD5753260E"
+				item: "computercraft:wireless_modem_advanced"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10D3C6A8BF617C14"]
+			id: "5128C1CB0654817C"
+			tasks: [{
+				id: "570D47AF89ACAE38"
+				item: "computercraft:cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["208B8810E1BD8B59"]
+			id: "249CDA67D30F7EB8"
+			tasks: [{
+				id: "3E3CB0E9BDFB652F"
+				item: "projectred_core:plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["208B8810E1BD8B59"]
+			id: "26B1E032BD2DEA18"
+			tasks: [{
+				id: "3B67231DD2BDD9FA"
+				item: "projectred_core:red_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26B1E032BD2DEA18"]
+			id: "10A20EA4A6ED2302"
+			tasks: [{
+				id: "4DF1AA5CF32963CE"
+				item: {
+					Count: 1
+					id: "projectred_core:multimeter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "3617342AD92C9A9E"
+			tasks: [{
+				id: "354CD63A9F027D1C"
+				item: "projectred_core:conductive_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "335CF3B0E68808E0"
+			tasks: [{
+				id: "48260DB83ABB1BD3"
+				item: "projectred_core:wired_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "35ACC825BA6B46F6"
+			tasks: [{
+				id: "1042A7EAD5908045"
+				item: "projectred_core:bundled_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "76D35C2E7310468D"
+			tasks: [{
+				id: "490D54CC9DE4C6D1"
+				item: "projectred_core:platformed_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "1D49386A1BF43A46"
+			tasks: [{
+				id: "2FE61A9E7137D356"
+				item: "projectred_core:anode"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35757770DD439022"
+				"249CDA67D30F7EB8"
+			]
+			hide_dependent_lines: true
+			id: "46B4F765A26C95C7"
+			tasks: [{
+				id: "6B5C7C1ED4D97B9F"
+				item: "projectred_core:cathode"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"208B8810E1BD8B59"
+				"26B1E032BD2DEA18"
+			]
+			id: "35757770DD439022"
+			tasks: [{
+				id: "2D99E9D513C37E45"
+				item: "projectred_transmission:red_alloy_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "1072EB6B2D67FAB8"
+			tasks: [{
+				id: "78846375804C5181"
+				item: "projectred_integration:or_gate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "7ED23CC61D0069DB"
+			tasks: [{
+				id: "423C2D0CA9293D4A"
+				item: "projectred_integration:nor_gate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "3E99E825E7B47344"
+			tasks: [{
+				id: "281AA9D4AF478908"
+				item: "projectred_integration:not_gate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "695BC4D63C7A719F"
+			tasks: [{
+				id: "5F60F28A7DCC9058"
+				item: "projectred_integration:and_gate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "7C30F73A2610DA05"
+			tasks: [{
+				id: "6C7ACAF450CBBC76"
+				item: "projectred_integration:nand_gate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"76D35C2E7310468D"
+				"1D49386A1BF43A46"
+				"335CF3B0E68808E0"
+				"35ACC825BA6B46F6"
+				"46B4F765A26C95C7"
+				"3617342AD92C9A9E"
+			]
+			id: "169393ED77BD81BF"
+			tasks: [{
+				id: "3CB8F0DF617C88C7"
+				item: "projectred_integration:xor_gate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+	title: "Computing Advanced"
+}
