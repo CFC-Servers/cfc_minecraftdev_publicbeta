@@ -117,25 +117,8 @@
     "securitycraft:universal_block_reinforcer_lvl1",
     "securitycraft:universal_block_reinforcer_lvl2",
     "securitycraft:universal_block_reinforcer_lvl3",
-    "projectred_exploration:white_backpack",
-    "projectred_exploration:orange_backpack",
-    "projectred_exploration:magenta_backpack",
-    "projectred_exploration:light_blue_backpack",
-    "projectred_exploration:yellow_backpack",
-    "projectred_exploration:lime_backpack",
-    "projectred_exploration:pink_backpack",
-    "projectred_exploration:gray_backpack",
-    "projectred_exploration:light_gray_backpack",
-    "projectred_exploration:cyan_backpack",
-    "projectred_exploration:purple_backpack",
-    "projectred_exploration:blue_backpack",
-    "projectred_exploration:brown_backpack",
-    "projectred_exploration:green_backpack",
-    "projectred_exploration:red_backpack",
-    "projectred_exploration:black_backpack",
     "tconstruct:piggy_backpack",
-    "projectred_transmission:low_load_power_wire",
-    "projectred_transmission:low_load_framed_power_wire"
+    "projectred_core:electrotine_generator"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
