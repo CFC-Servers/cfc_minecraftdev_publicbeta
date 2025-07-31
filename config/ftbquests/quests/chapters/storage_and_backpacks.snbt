@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_and_backpacks"
+	group: "4627013B1344C874"
+	id: "776829FAB59C96D4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Sophisticated Storage and Sophisticated Backpacks are mods that introduce upgradable tiered storage with many properties. This questline will guide you through getting basic upgrades and different storage options."]
+			id: "624986FF57DBCBE8"
+			size: 1.5d
+			tasks: [{
+				id: "3A5AD5B7055CAF2D"
+				title: "Info"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624986FF57DBCBE8"]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "78EF742F17A3BACF"
+			tasks: [{
+				id: "4C5827E10A39CFC7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "sophisticatedstorage:base_tier_wooden_storage"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_tier_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting Started with Storage"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EF742F17A3BACF"]
+			id: "6DC241D930EF8829"
+			optional: true
+			size: 0.75d
+			subtitle: "Getting this first will make the iron upgrade cheaper!"
+			tasks: [{
+				id: "1C36C482D9FC0B9A"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			title: "Copper? I hardly know 'er!"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78EF742F17A3BACF"]
+			id: "3BCBC5A188558EBC"
+			subtitle: "Wait..."
+			tasks: [{
+				id: "4E537B9E51BEF7C8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Chests"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BCBC5A188558EBC"]
+			id: "768512DD806578FA"
+			subtitle: "Despite what Generic may tell you, Australium is real."
+			tasks: [{
+				id: "16BEDC826FEDE9DF"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			title: "Australium Chest"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["768512DD806578FA"]
+			id: "70ED206D240AF9D3"
+			tasks: [{
+				id: "03EF070F89C44656"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70ED206D240AF9D3"]
+			id: "1B20A2EEA0896A2D"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "241A93E537AF4044"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["624986FF57DBCBE8"]
+			id: "5FED435A8A2C307D"
+			tasks: [{
+				id: "10C56E2D178F4FCB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FED435A8A2C307D"]
+			id: "3F36E6B9365A4ADC"
+			tasks: [{
+				id: "5E941C45D6E88452"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FED435A8A2C307D"]
+			id: "278DD2B06308CF4D"
+			optional: true
+			size: 0.75d
+			subtitle: "Getting this first will make the iron upgrade cheaper!"
+			tasks: [{
+				id: "15B5BAB920374285"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F36E6B9365A4ADC"]
+			id: "5DEA7C8EDFE6F662"
+			tasks: [{
+				id: "0ACD1F18C240E383"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5DEA7C8EDFE6F662"]
+			id: "273EEE4F0BCE8458"
+			tasks: [{
+				id: "170AB49D0F733C35"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["273EEE4F0BCE8458"]
+			id: "6561D2C377D05D33"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3B37C65703569C2B"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+	]
+	title: "Storage and Backpacks"
+}
