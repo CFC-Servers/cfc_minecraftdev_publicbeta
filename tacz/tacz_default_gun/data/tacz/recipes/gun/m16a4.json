@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m16a4"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

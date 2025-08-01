@@ -1,0 +1,62 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 25
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:qbz_95"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

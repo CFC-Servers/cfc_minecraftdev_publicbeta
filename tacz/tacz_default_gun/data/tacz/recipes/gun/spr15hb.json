@@ -1,0 +1,62 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 100
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 75
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:spr15hb"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

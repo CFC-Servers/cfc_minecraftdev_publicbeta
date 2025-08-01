@@ -1,0 +1,62 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 110
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:scar_h"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

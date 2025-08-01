@@ -1,0 +1,54 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/silver"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/diamond"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:timeless50"
+  }
+}

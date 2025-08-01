@@ -1,0 +1,48 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:deagle_golden"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

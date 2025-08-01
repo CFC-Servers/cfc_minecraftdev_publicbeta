@@ -1,0 +1,50 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 38
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:hk_mp5a5"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

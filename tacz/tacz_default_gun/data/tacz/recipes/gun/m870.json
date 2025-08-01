@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m870"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

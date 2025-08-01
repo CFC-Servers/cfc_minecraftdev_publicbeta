@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:springfield1873"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

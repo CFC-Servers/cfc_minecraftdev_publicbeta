@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 110
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpg7"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,53 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 150
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpk",
+    "attachments": {
+      "stock": "tacz:oem_stock_heavy"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

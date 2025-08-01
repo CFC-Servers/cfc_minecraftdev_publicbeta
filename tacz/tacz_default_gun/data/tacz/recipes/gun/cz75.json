@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:cz75"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

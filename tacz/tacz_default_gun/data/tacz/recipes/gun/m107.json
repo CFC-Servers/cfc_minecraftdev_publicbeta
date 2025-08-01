@@ -1,0 +1,59 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "cfcmc_tacz:rubber_component"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 320
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:gears/netherite"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:precision_component"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/diamond"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m107",
+    "attachments": {
+      "scope": "tacz:scope_contender"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

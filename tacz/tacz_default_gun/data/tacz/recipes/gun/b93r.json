@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/uranium"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:b93r"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

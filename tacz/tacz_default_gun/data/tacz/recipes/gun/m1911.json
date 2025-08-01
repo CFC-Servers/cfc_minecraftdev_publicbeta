@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:gears/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "item": {
+        "tag": "cfcmc_tacz:spring_component"
+      }
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m1911"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}
