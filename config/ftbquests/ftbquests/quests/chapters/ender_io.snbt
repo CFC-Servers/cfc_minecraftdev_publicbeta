@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "6D6D98FF652ED5F8"
+	id: "12932E572D2F5208"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70A106B509AD4768"
+			tasks: [{
+				id: "1280515481C578FE"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			title: "Whoever smelt it..."
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70A106B509AD4768"]
+			id: "2F840ABA7425084D"
+			rewards: [{
+				count: 2
+				id: "60522444DDF28B0A"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "40B093708416A9EF"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			title: "I don't think you're allowed to say that..."
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70A106B509AD4768"]
+			id: "58CA16650277E1A2"
+			rewards: [{
+				count: 2
+				id: "76E03B2ECC620504"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1EB6D5CC2D272F82"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "Ash me anything"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48A3BCFCBB3FCEEE"
+				"3D3169FA4BFD253A"
+				"53CD0D00C9554289"
+			]
+			id: "7DA6BFD92988CC16"
+			rewards: [
+				{
+					count: 4
+					id: "02166773C5FBE511"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "4E1617FA5A88AF53"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "273B05CA925B2D1B"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			title: "Furnace who?"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F840ABA7425084D"]
+			id: "48A3BCFCBB3FCEEE"
+			tasks: [{
+				count: 2L
+				id: "390F9C653C2E61CF"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			title: "Basic Biyach "
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"48A3BCFCBB3FCEEE"
+				"6D9841822E8FB2E7"
+			]
+			id: "7D449C0E936FD239"
+			rewards: [{
+				count: 2
+				id: "03D91FE48DD382F4"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4649221BB969E5D6"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			title: "Double Stuffed"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7D449C0E936FD239"
+				"66E202347B6D13C8"
+			]
+			id: "58D07C5580A321BF"
+			rewards: [{
+				count: 2
+				id: "51C92EFBEC692603"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0904D6769D898303"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			title: "4 ≠ 8"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DA6BFD92988CC16"]
+			id: "6D9841822E8FB2E7"
+			rewards: [
+				{
+					count: 2
+					id: "2DB097F547055C25"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D229DCB051A44BC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4062061250B5586F"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7DA6BFD92988CC16"
+				"6D9841822E8FB2E7"
+			]
+			id: "66E202347B6D13C8"
+			rewards: [{
+				count: 4
+				id: "461B342917C5D57A"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4D23DA8382491F34"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"2F840ABA7425084D"
+				"53CD0D00C9554289"
+			]
+			id: "3D3169FA4BFD253A"
+			rewards: [{
+				count: 4
+				id: "0BB49671AB41448C"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "77578C64EF9C74C7"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			title: "Classy!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D3169FA4BFD253A"]
+			id: "044D36B5ADEA33CB"
+			rewards: [{
+				count: 4
+				id: "27BCB696027456C1"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59529E0536C3A633"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			title: "ENCHANTER??? I HARDLY"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D3169FA4BFD253A"]
+			id: "1458D706C2C57F94"
+			rewards: [
+				{
+					count: 2
+					id: "4158DD0C0CA9CE12"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A08A0EC0F4DE4B7"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "717944B43168A8C8"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			title: "Pull up yo pants!"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58CA16650277E1A2"]
+			id: "53CD0D00C9554289"
+			rewards: [{
+				count: 4
+				id: "56E5A9426DD008CF"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5DFDC35DF14FF236"
+				item: "enderio:iron_gear"
+				type: "item"
+			}]
+			title: "Bye metal? Where's it going?"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DA6BFD92988CC16"]
+			id: "3A60085D12011D14"
+			rewards: [
+				{
+					count: 8
+					id: "2DEA19FAA2D08CC4"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07F909F652F8D016"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5303C90FE461FC79"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			title: "Soul Purpose"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"53CD0D00C9554289"
+				"3A60085D12011D14"
+			]
+			id: "6CCFA1E0C8339D76"
+			rewards: [{
+				count: 4
+				id: "2B705B9FE3A4773B"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "431CCEAD82D4E1A0"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			title: "Now with 200% more soul!"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53CD0D00C9554289"]
+			id: "734AAAC8DC6B2555"
+			rewards: [{
+				count: 4
+				id: "1D7E9DB66A0AE49E"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7CEEF7574EDDDF68"
+				item: "enderio:energized_gear"
+				type: "item"
+			}]
+			title: "You added cheese dust.."
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6CCFA1E0C8339D76"
+				"734AAAC8DC6B2555"
+			]
+			id: "3F3B202466C4B336"
+			rewards: [
+				{
+					count: 2
+					id: "2886DB1809173DCD"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "453944927C763B20"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73D211F14E71EB6E"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			title: "Boss SL-2"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6CCFA1E0C8339D76"
+				"734AAAC8DC6B2555"
+			]
+			id: "450720106BE17655"
+			rewards: [
+				{
+					count: 2
+					id: "7AA6B00BD233F688"
+					item: "enderio:empty_soul_vial"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10F6D5B16F686B12"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "545022A3117B1294"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			title: "B...B..BBBINDERR???? I HAR"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"450720106BE17655"
+				"66E202347B6D13C8"
+			]
+			id: "10FAFC3BCCCC938A"
+			rewards: [{
+				count: 4
+				id: "136FE1EC57FDB31F"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E0287BF2070A201"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+	]
+	title: "Ender IO"
+}

@@ -37,6 +37,7 @@ var arr_rmrecipe = [
     <item:ae2:charger> //11
 ];
 
+
 for arr_ingredient in arr_rmrecipe { // removes recipes in the array so they can be replaced below
     print("[CFCMC_CR] [INFO] Removing Recipe(s) For : " + arr_ingredient.commandString); 
     craftingTable.remove(arr_ingredient);  
@@ -320,4 +321,9 @@ defineEvoMekAlloyerRecipe("alloyed_cookie",<item:minecraft:cookie> * 8,<tag:item
 
 
 
-//var example = {}
+// this is all tacz shit below this line
+
+<tag:items:cfcmc_tacz:spring_component>.add(<item:createbigcannons:recoil_spring>); //adds a tag for recoil springs
+<tag:items:cfcmc_tacz:precision_component>.add(<item:create:precision_mechanism>); // precis mechanisms
+<tag:items:cfcmc_tacz:rubber_component>.add(<item:thermal:cured_rubber>); // cured rubber from thermal
+<tag:items:cfcmc_tacz:explosive_component>.add(<item:minecraft:tnt>); // cured rubber from thermal

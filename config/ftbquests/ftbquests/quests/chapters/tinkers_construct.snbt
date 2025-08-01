@@ -1,0 +1,612 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "6D6D98FF652ED5F8"
+	icon: "tconstruct:smeltery_controller"
+	id: "09A026756880BB88"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/quests/melter.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/quests/smelter.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/quests/foundry.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: -8.0d
+			y: 7.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20467679A0845129"
+			rewards: [
+				{
+					count: 8
+					id: "1F283232C873B5FE"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "730B5E8B65EBDE3B"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Build powerful custom tools with modifiers!"
+			tasks: [
+				{
+					id: "192FE2D80D3A8C5A"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "3B4B82BC5717AE68"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			title: "Tinkers' Construct"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20467679A0845129"]
+			description: ["she tinker on my construct till I crafting station"]
+			id: "3178C4E2D86B573C"
+			optional: true
+			size: 0.75d
+			subtitle: "Keeps items in its inventory when you close it"
+			tasks: [{
+				id: "12324AD64A1A6BC8"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			title: "Crafting Station"
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20467679A0845129"]
+			description: ["In order to level your tools, you need to add the \"Improvable\" modifier to your tool. (You can find it in EMI!)"]
+			icon: "minecraft:experience_bottle"
+			id: "7262AAF43F80F9E0"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "5C6B588566014D2B"
+				type: "checkmark"
+			}]
+			title: "Tool Leveling"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20467679A0845129"]
+			id: "62A27C4D93C84704"
+			optional: true
+			size: 0.75d
+			subtitle: "A mining bomb that drops all blocks it mines!"
+			tasks: [{
+				id: "727675821466DFBF"
+				item: "tconstruct:efln_ball"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BFACC01EE33017F"]
+			icon: "tconstruct:seared_melter"
+			id: "135CBCB21F32D78A"
+			rewards: [{
+				id: "1D4FE364C091DF6C"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5FDB413F19FD7CE0"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "068FF3185EF8D2EB"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "27917A2A3EFBC446"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "63ACDBB82DC73F66"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "MELTER? I HARDLY KNOW 'ER"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20467679A0845129"]
+			icon: "minecraft:slime_ball"
+			id: "3D54AF6865B588EF"
+			optional: true
+			rewards: [{
+				id: "104D30985506E459"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "3AA47D82ECD3CE41"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:sky_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [{
+										level: 1
+										name: "tconstruct:overslime_friend"
+									}]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:block_amount": 15.0f
+										"tconstruct:draw_speed": 1.25f
+										"tconstruct:durability": 500.0f
+										"tconstruct:use_item_speed": 0.4f
+										"tconstruct:velocity": 0.8f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										upgrades: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:earth_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [{
+										level: 1
+										name: "tconstruct:overslime_friend"
+									}]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:accuracy": 0.9f
+										"tconstruct:block_amount": 35.0f
+										"tconstruct:block_angle": 140.0f
+										"tconstruct:durability": 800.0f
+										"tconstruct:projectile_damage": 1.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										defense: 3
+										upgrades: 2
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ender_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											level: 1
+											name: "tconstruct:overslime_friend"
+										}
+										{
+											level: 2
+											name: "tconstruct:reach"
+										}
+									]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:accuracy": 0.5f
+										"tconstruct:block_amount": 15.0f
+										"tconstruct:durability": 1520.0f
+										"tconstruct:projectile_damage": 3.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										defense: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ichor_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [{
+										level: 1
+										name: "tconstruct:overslime_friend"
+									}]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:block_amount": 15.0f
+										"tconstruct:draw_speed": 0.75f
+										"tconstruct:durability": 1225.0f
+										"tconstruct:use_item_speed": 0.4f
+										"tconstruct:velocity": 1.2f
+									}
+									tic_volatile_data: {
+										abilities: 3
+										upgrades: 2
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Gadgetry"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20467679A0845129"]
+			id: "5BFACC01EE33017F"
+			rewards: [{
+				id: "68AFDDB566F941B2"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			subtitle: "You'll need a lot of these for the melter"
+			tasks: [
+				{
+					id: "20D483DFEBBDE80C"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					id: "2E3743643D3BB281"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			title: "Seared Bricks"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D54AF6865B588EF"]
+			icon: "tconstruct:diamond_item_frame"
+			id: "2637393FA1922664"
+			optional: true
+			size: 0.75d
+			subtitle: "Item Frames 2: Electric Boogaloo"
+			tasks: [{
+				id: "0761366252B0D9B8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:clear_item_frame"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:netherite_item_frame"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:reversed_gold_item_frame"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:diamond_item_frame"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:manyullyn_item_frame"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:gold_item_frame"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fancy Frames"
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D54AF6865B588EF"]
+			id: "00FD3E896E968A1F"
+			optional: true
+			size: 0.75d
+			subtitle: "Slimey Cakes, with side effects!"
+			tasks: [{
+				id: "5E5B17A62D8BD1A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:earth_cake"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:sky_cake"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ichor_cake"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ender_cake"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:blood_cake"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:magma_cake"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Slime Cakes"
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D54AF6865B588EF"]
+			icon: {
+				Count: 1
+				id: "tconstruct:ender_staff"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:overslime_friend"
+						}
+						{
+							level: 2
+							name: "tconstruct:reach"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.5f
+						"tconstruct:block_amount": 15.0f
+						"tconstruct:durability": 1520.0f
+						"tconstruct:projectile_damage": 3.0f
+						"tconstruct:use_item_speed": 0.4f
+					}
+					tic_volatile_data: {
+						abilities: 2
+						defense: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "5739603C125F9325"
+			size: 0.75d
+			tasks: [{
+				id: "0BE5F9E832F061D7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:sky_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [{
+										level: 1
+										name: "tconstruct:overslime_friend"
+									}]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:block_amount": 15.0f
+										"tconstruct:draw_speed": 1.25f
+										"tconstruct:durability": 500.0f
+										"tconstruct:use_item_speed": 0.4f
+										"tconstruct:velocity": 0.8f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										upgrades: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:earth_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [{
+										level: 1
+										name: "tconstruct:overslime_friend"
+									}]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:accuracy": 0.9f
+										"tconstruct:block_amount": 35.0f
+										"tconstruct:block_angle": 140.0f
+										"tconstruct:durability": 800.0f
+										"tconstruct:projectile_damage": 1.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										defense: 3
+										upgrades: 2
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ender_staff"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											level: 1
+											name: "tconstruct:overslime_friend"
+										}
+										{
+											level: 2
+											name: "tconstruct:reach"
+										}
+									]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:accuracy": 0.5f
+										"tconstruct:block_amount": 15.0f
+										"tconstruct:durability": 1520.0f
+										"tconstruct:projectile_damage": 3.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 2
+										defense: 1
+										upgrades: 3
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Slime Staffs"
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["135CBCB21F32D78A"]
+			description: ["AHAHHAHAHDHAHDAHWHAHDAHIDOKFJNHWAWAFJUAC"]
+			hide_text_until_complete: false
+			icon: "tconstruct:smeltery_controller"
+			id: "3CA82560FC0B5557"
+			rewards: [
+				{
+					id: "261256E0AC5D1B66"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+				{
+					id: "3F4F3F0BC725B69E"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			subtitle: "I AHRADLY KNWO ER!!"
+			tasks: [{
+				id: "752CDF2335FBDE33"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			title: "CONTROLLER????"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA82560FC0B5557"]
+			hide_dependency_lines: true
+			id: "3BC23D0371C700AA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "613F3B90EA591851"
+				item: "tconstruct:scorched_bricks"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BC23D0371C700AA"]
+			id: "7377048977C6F78E"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "You've tinkered your construct until you founderied."
+			tasks: [{
+				id: "044A3A935872BC18"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			title: "The End"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CA82560FC0B5557"]
+			id: "6B6E2FD309979EB0"
+			tasks: [{
+				id: "771609135BB93298"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "Tinker's Construct"
+}

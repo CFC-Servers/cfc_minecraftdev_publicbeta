@@ -14,7 +14,7 @@ enabled = true
 
 [voice]
 disabled = false
-microphone_disabled = false
+microphone_disabled = true
 activation_threshold = -30.0
 input_device = "Filtered Microphone for RZ19-0229 Gaming Microphone Analog Stereo Source"
 output_device = ""
