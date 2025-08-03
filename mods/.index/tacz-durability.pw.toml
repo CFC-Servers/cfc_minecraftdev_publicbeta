@@ -1,0 +1,16 @@
+filename = 'gundurability-1.8.2-all.jar'
+name = '[TACZ] Durability'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '321b99521f7cfefa045f39216c02aea3b1f1c2471ff63da4a9d1804c104b897a2ca27fb5511861b014f8a3b4d72746e367796a153b84ca51b77d0d1daab5bd3e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eYsYyxH0/versions/fWcCcEry/gundurability-1.8.2-all.jar'
+
+[update.modrinth]
+mod-id = 'eYsYyxH0'
+version = 'fWcCcEry'

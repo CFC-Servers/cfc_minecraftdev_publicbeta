@@ -1,0 +1,16 @@
+filename = 'paucal-0.6.0+1.20.1-forge.jar'
+name = 'PAUCAL'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'c970d419650a54fbf90319d5a2187228ab634ada8b9a2b381f8365066718e006203f0769217b47c9a875eb296751eadfa5fb79788deb36d7c07ca258e9d3e249'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TZo2wHFe/versions/HyBiJPtT/paucal-0.6.0%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'TZo2wHFe'
+version = 'HyBiJPtT'

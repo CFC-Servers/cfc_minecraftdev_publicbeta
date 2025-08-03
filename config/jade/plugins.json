@@ -113,6 +113,9 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

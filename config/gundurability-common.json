@@ -1,0 +1,100 @@
+{
+  "maxDurability": 2000,
+  "inaccuracyRate": 500,
+  "doGunsBreak": false,
+  "jamChance": 15,
+  "biomeModifiers": [
+    {
+      "biomeName": "minecraft:desert",
+      "multiplier": 1.5
+    },
+    {
+      "biomeName": "minecraft:river",
+      "multiplier": 2.0
+    },
+    {
+      "biomeName": "minecraft:plains",
+      "multiplier": 0.8
+    }
+  ],
+  "unjammableList": [
+    "tacz:db_short",
+    "tacz:db_long"
+  ],
+  "durabilityList": [
+    {
+      "gunId": "tacz:db_short",
+      "maxDurability": 1500,
+      "jamMultiplier": 2.0,
+      "jamTime": 100
+    },
+    {
+      "gunId": "tacz:db_long",
+      "maxDurability": 1800,
+      "jamMultiplier": 1.0,
+      "jamTime": 100
+    }
+  ],
+  "debug": false,
+  "durabilityItems": [
+    {
+      "id": "gundurability:ak_barrel",
+      "durability": 25.0,
+      "uses": 1,
+      "slot": "BARREL",
+      "maxDurability": 100.0,
+      "minDurability": 0.0,
+      "gunTag": {
+        "tagName": "AK Barrels",
+        "gunIds": [
+          "tacz:qbz_95",
+          "tacz:rpk",
+          "tacz:type_81",
+          "tacz:sks_tactical",
+          "tacz:ak47"
+        ]
+      }
+    },
+    {
+      "id": "gundurability:gun_barrel",
+      "durability": 17.5,
+      "uses": 1,
+      "slot": "BARREL",
+      "maxDurability": 100.0,
+      "minDurability": 0.0
+    },
+    {
+      "id": "gundurability:gun_bolt",
+      "durability": 25.0,
+      "uses": 1,
+      "slot": "BOLT",
+      "maxDurability": 80.0,
+      "minDurability": 0.0
+    },
+    {
+      "id": "gundurability:recoil_spring",
+      "durability": 30.0,
+      "uses": 1,
+      "slot": "SPRING",
+      "maxDurability": 90.0,
+      "minDurability": 10.0
+    },
+    {
+      "id": "gundurability:brass_brush",
+      "durability": 2.5,
+      "uses": 16,
+      "slot": "MISC",
+      "maxDurability": 80.0,
+      "minDurability": 50.0
+    },
+    {
+      "id": "gundurability:wd_40",
+      "durability": 4.0,
+      "uses": 8,
+      "slot": "MISC",
+      "maxDurability": 60.0,
+      "minDurability": 30.0
+    }
+  ],
+  "creativeTab": "gundurability:brass_brush"
+}

@@ -1,0 +1,93 @@
+{
+  "gun": {
+    "shootWhileSprinting": true,
+    "sprintWhileReloading": true,
+    "reloadWhileShooting": true,
+    "allowUnload": true,
+    "disableBulletCulling": false
+  },
+  "modifiers": {
+    "damage": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "playerDamage": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "headshot": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "armorIgnore": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "speed": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "gravity": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "friction": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "inaccuracy": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "aimInaccuracy": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "rpm": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "verticalRecoil": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    },
+    "horizontalRecoil": {
+      "addend": 0.0,
+      "multiplier": 1.0,
+      "function": ""
+    }
+  },
+  "crawl": {
+    "enabled": true,
+    "pitchUpperLimit": 25.0,
+    "pitchLowerLimit": -10.0,
+    "dynamicPitchLimit": false,
+    "visualTweak": true
+  },
+  "compat": {
+    "firstAidCompat": true,
+    "lsoCompat": true,
+    "vsCollisionCompat": false,
+    "vsExplosionCompat": false,
+    "mtsFix": true
+  },
+  "tweaks": {
+    "endermenEvadeBullets": false,
+    "alwaysFilterByHand": true,
+    "suppressHeadHitSounds": false,
+    "suppressFleshHitSounds": false,
+    "suppressKillSounds": false,
+    "hideHitMarkers": false
+  }
+}

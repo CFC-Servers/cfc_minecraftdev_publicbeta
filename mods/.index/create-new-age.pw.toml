@@ -1,0 +1,16 @@
+filename = 'create-new-age-forge-1.20.1-1.1.4.jar'
+name = 'Create: New Age'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c1e8b474fb1757b1c227233bece734e4f8e496497f0e23ab9ecb0562e41fcee782b706e22861a1a8915bca6b8d77d787a74a9e8ecad2bf78fdaa289eab8d008b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FTeXqI9v/versions/8pm2JUQy/create-new-age-forge-1.20.1-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'FTeXqI9v'
+version = '8pm2JUQy'

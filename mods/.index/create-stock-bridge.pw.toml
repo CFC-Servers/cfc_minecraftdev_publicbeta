@@ -1,0 +1,16 @@
+filename = 'createstockbridge-1.20-0.1.5.jar'
+name = 'Create Stock Bridge'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ff39b4dd4a024dcb8018bde41d0f77a9321be9b9c6314eb7ea2d5070876d735fc72c0d46b1b27db75fa099062a8f95eb9d860396dd6e9dbc8aae7018a651cd51'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V7mbOBO4/versions/rzBecedb/createstockbridge-1.20-0.1.5.jar'
+
+[update.modrinth]
+mod-id = 'V7mbOBO4'
+version = 'rzBecedb'

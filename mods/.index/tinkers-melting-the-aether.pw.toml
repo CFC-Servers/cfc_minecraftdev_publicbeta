@@ -1,0 +1,16 @@
+filename = "Tinkers' Melting - The Aether.zip"
+name = "Tinkers' Melting: The Aether"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '360a66fb30c9a6f5a70b807a22c32eb5eabbec35f9426070b1ff13f31056cb928ad491c9309d22ea04a843f7d83f77b0f3fbe56c0ef541b2bf3e372d7f35eed7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27 Melting - The Aether.zip'
+
+[update.modrinth]
+mod-id = '1I4OVdwB'
+version = 'przU9YsQ'

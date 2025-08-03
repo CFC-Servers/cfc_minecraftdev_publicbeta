@@ -1,16 +1,5 @@
 {
   "attributes": {
-    "hoths_tacz_damage_attributes:axmc_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "obscure_api:penetration": {
       "enabled": false,
       "min": {
@@ -20,6 +9,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:axmc_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "forge:step_height_addition": {
@@ -253,17 +253,6 @@
         "value": 999999
       }
     },
-    "hoths_tacz_damage_attributes:mustang_and_sally_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "irons_spellbooks:holy_spell_power": {
       "enabled": false,
       "min": {
@@ -273,6 +262,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:mustang_and_sally_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "tconstruct:generic.jump_boost": {
@@ -451,6 +451,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "obscure_api:critical_damage": {
       "enabled": false,
       "min": {
@@ -484,6 +495,17 @@
         "value": 1000000
       }
     },
+    "irons_spellbooks:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "hoths_tacz_damage_attributes:laser_pistol_damage": {
       "enabled": false,
       "min": {
@@ -515,17 +537,6 @@
       "max": {
         "default": 999999,
         "value": 999999
-      }
-    },
-    "irons_spellbooks:mana_regen": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "hoths_tacz_damage_attributes:fs_five_seven_damage": {
@@ -594,6 +605,17 @@
         "value": 999999
       }
     },
+    "ars_nouveau:ars_nouveau.perk.warding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "hoths_tacz_damage_attributes:aug_damage": {
       "enabled": false,
       "min": {
@@ -614,6 +636,17 @@
       "max": {
         "default": 999999,
         "value": 999999
+      }
+    },
+    "gundurability:handling": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "hoths_tacz_damage_attributes:machinegun_damage": {
@@ -759,6 +792,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.saturation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "vampirism:sundamage": {
       "enabled": false,
       "min": {
@@ -781,17 +825,6 @@
         "value": 1
       }
     },
-    "hoths_tacz_damage_attributes:qbz_95_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "obscure_api:healing_power": {
       "enabled": false,
       "min": {
@@ -801,6 +834,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:qbz_95_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "hoths_tacz_damage_attributes:ads_gun_damage": {
@@ -856,6 +900,17 @@
       "max": {
         "default": 999999,
         "value": 999999
+      }
+    },
+    "hexcasting:scry_sight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "hoths_tacz_damage_attributes:p320_damage": {
@@ -1001,6 +1056,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
+        "value": 2000
+      }
+    },
     "minecraft:generic.attack_damage": {
       "enabled": true,
       "min": {
@@ -1021,6 +1087,17 @@
       "max": {
         "default": 4,
         "value": 4
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.feather": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "hoths_tacz_damage_attributes:akx105_damage": {
@@ -1210,17 +1287,6 @@
         "value": 1
       }
     },
-    "hoths_tacz_damage_attributes:taser_x26_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -1230,6 +1296,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:taser_x26_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "obscure_api:regeneration": {
@@ -1320,17 +1397,6 @@
         "value": 999999
       }
     },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
@@ -1340,6 +1406,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tacz:tacz.bullet_resistance": {
@@ -1406,6 +1483,17 @@
       "max": {
         "default": 999999,
         "value": 999999
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.wixie": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -1639,6 +1727,17 @@
         "value": 999999
       }
     },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "irons_spellbooks:spell_resist": {
       "enabled": false,
       "min": {
@@ -1659,6 +1758,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "irons_spellbooks:max_mana": {
@@ -1738,6 +1848,17 @@
         "value": 999999
       }
     },
+    "hexcasting:grid_zoom": {
+      "enabled": false,
+      "min": {
+        "default": 0.5,
+        "value": 0.5
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "hoths_tacz_damage_attributes:jrx_viper_2011_damage": {
       "enabled": false,
       "min": {
@@ -1782,17 +1903,6 @@
         "value": 999999
       }
     },
-    "hoths_tacz_damage_attributes:laser_rifle_fallout_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -1804,7 +1914,7 @@
         "value": 100
       }
     },
-    "hoths_tacz_damage_attributes:nitro_505_damage": {
+    "hoths_tacz_damage_attributes:laser_rifle_fallout_damage": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1824,6 +1934,17 @@
       "max": {
         "default": 100000,
         "value": 100000
+      }
+    },
+    "hoths_tacz_damage_attributes:nitro_505_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "hoths_tacz_damage_attributes:m107_sniper_rifle_damage": {
@@ -2046,17 +2167,6 @@
         "value": 999999
       }
     },
-    "hoths_tacz_damage_attributes:m249_machine_gun_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "irons_spellbooks:ender_magic_resist": {
       "enabled": false,
       "min": {
@@ -2066,6 +2176,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:m249_machine_gun_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "hoths_tacz_damage_attributes:glock_17_damage": {
@@ -2156,17 +2277,6 @@
         "value": 1024
       }
     },
-    "hoths_tacz_damage_attributes:txc_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 999999,
-        "value": 999999
-      }
-    },
     "tconstruct:player.mining_speed_multiplier": {
       "enabled": false,
       "min": {
@@ -2176,6 +2286,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hoths_tacz_damage_attributes:txc_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999999,
+        "value": 999999
       }
     },
     "hoths_tacz_damage_attributes:gauss_rifle_fallout_damage": {

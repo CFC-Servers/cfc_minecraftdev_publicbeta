@@ -1,0 +1,16 @@
+filename = 'jsconf-1.1.1.jar'
+name = 'JasonConfig'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1dea11411fad192590656090e96dd1d60d840aba236eae475f922d70f9c4f1080950fb7f379eded1cc1b77257f45ef563e1255291fe0cb0d696b36df011423ed'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LIhJdOPR/versions/axmrQOHm/jsconf-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'LIhJdOPR'
+version = 'axmrQOHm'

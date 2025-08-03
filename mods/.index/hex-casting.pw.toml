@@ -1,0 +1,16 @@
+filename = 'hexcasting-forge-1.20.1-0.11.2.jar'
+name = 'Hex Casting'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c8c9fb583daf2a74173630808c9aca2da7edf6cfd56c357b1947ec5d424074c0d91286680dafe552148a70909ccfbd17d5a045a060d591c9e913c0eb07ac8c00'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nTW3yKrm/versions/xENnFQpR/hexcasting-forge-1.20.1-0.11.2.jar'
+
+[update.modrinth]
+mod-id = 'nTW3yKrm'
+version = 'xENnFQpR'

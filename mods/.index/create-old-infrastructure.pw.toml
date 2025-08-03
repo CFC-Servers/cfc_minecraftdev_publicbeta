@@ -1,0 +1,16 @@
+filename = 'Old Infrastructure 1.20.1 1.2.0.jar'
+name = 'Create: Old Infrastructure'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'df78b275164dbd93b9dd56b34a5c7b37136ef8e27f64a51b3ce5952bf6ee1eaf7703a8932dd2eee22f9a7868aed6f30efedf89c55e1c97cf6739cc9e5b058acb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h7UjQwqh/versions/TJjhICJx/Old Infrastructure 1.20.1 1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'h7UjQwqh'
+version = 'TJjhICJx'
