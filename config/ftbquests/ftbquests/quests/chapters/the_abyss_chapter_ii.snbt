@@ -1,0 +1,1561 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_abyss_chapter_ii"
+	group: "7C658D05BFA72509"
+	id: "02FA7FA79AFEA2D5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To get started with &l&1The Abyss: Chapter II&r&r we must visit &l&dThe End!&r Good Luck!"]
+			id: "0E22181A221A0741"
+			rewards: [{
+				id: "60A21CFC1F0E5D01"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Visit The End"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "theabyss:loran_end_ore"
+				id: "3D406BDB11976CED"
+				title: "Visit the End"
+				type: "dimension"
+			}]
+			title: "Getting Started with The Abyss"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E22181A221A0741"]
+			description: [""]
+			id: "3DA392D56201D5DB"
+			rewards: [
+				{
+					id: "1C61C1B8C2A56763"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "3E8A620955C04B46"
+					item: "theabyss:loran"
+					type: "item"
+				}
+			]
+			subtitle: "Collect 24x Loran"
+			tasks: [{
+				count: 24L
+				id: "5C06EE665E22DCB3"
+				item: "theabyss:loran"
+				type: "item"
+			}]
+			title: "Loran... what could the be for?"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DA392D56201D5DB"]
+			id: "730AF60038D508FC"
+			rewards: [{
+				id: "7CEE7B0EE244408A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Collect Abyss Portal Activator"
+			tasks: [{
+				id: "063908A1F43C55B8"
+				item: {
+					Count: 1
+					id: "theabyss:the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "So this thing activates portals?"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DA392D56201D5DB"]
+			id: "1D3DC283E1ED3ACA"
+			rewards: [
+				{
+					id: "0D4BFF7F0BF77B7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "64B6FEB9A48DD92A"
+					item: "theabyss:unstable_obsidian"
+					type: "item"
+				}
+			]
+			subtitle: "Collect 10x Unstable Obsidian"
+			tasks: [{
+				count: 10L
+				id: "267EEA3FF3C35215"
+				item: "theabyss:unstable_obsidian"
+				type: "item"
+			}]
+			title: "Unstable Obsidian? Sounds interesting!"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"730AF60038D508FC"
+				"1D3DC283E1ED3ACA"
+			]
+			description: [
+				"The portal to The Abyss can be created similarly to a typical nether portal; but instead of Obsidian we use Unstable Obsidian, and instead of Flint and Steel we use the Portal Activator!"
+				"{image:supplementaries:textures/map_marker/nether_portal.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "theabyss:the_abyss"
+				}
+			}
+			id: "42240103A68DD7C4"
+			rewards: [{
+				id: "27AF3590E989BD82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Yes, really."
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				id: "599E90590696A161"
+				title: "Enter The Abyss"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			description: ["The dream shifter, used to shift between The Abyss and the Overworld. Use carefully, it is not always reliable!"]
+			id: "171734A4C51E726B"
+			rewards: [{
+				id: "22D0C65B75A4249E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Collect Dream Shifter"
+			tasks: [{
+				id: "3106CA5D6DF248B8"
+				item: "theabyss:dream_shifter"
+				type: "item"
+			}]
+			title: "Dream Shifting?"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C2ABCA6C80DC5D2"]
+			id: "7C1CE982450B4F2B"
+			rewards: [
+				{
+					id: "2EFBFEB40485450D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 6
+					id: "3FC3274CCDCCBAA5"
+					item: "theabyss:loran"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Somnium Extractor"
+			tasks: [{
+				id: "525E7536D5EDC075"
+				item: "theabyss:somnium_extractor"
+				type: "item"
+			}]
+			title: "Somnium, is that what the 4th bar is on my HUD?"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			id: "3848220311A457DA"
+			rewards: [{
+				id: "3A8B333ADC4FB3C5"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Collect Incorythe Gem"
+			tasks: [{
+				id: "517F0189440CED2E"
+				item: "theabyss:incorythe_gem"
+				type: "item"
+			}]
+			title: "Incorythe Gems, the catalyst of power!"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C1CE982450B4F2B"]
+			id: "1A87F2D486815915"
+			rewards: [
+				{
+					id: "3687A11A5E5B4154"
+					type: "xp"
+					xp: 1
+				}
+				{
+					count: 2
+					id: "5CF8931C6AFAB4AD"
+					item: "theabyss:somnium"
+					type: "item"
+				}
+			]
+			subtitle: "Collect 3x Somnium"
+			tasks: [{
+				count: 3L
+				id: "3053485B6CDCCFC0"
+				item: "theabyss:somnium"
+				type: "item"
+			}]
+			title: "Somnium some knee uhm"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["461B3A689879469D"]
+			description: ["The Somnium Infuser is used to create upgrades for your Somnium bar."]
+			id: "70B667A8738D3A1E"
+			rewards: [{
+				id: "29470E077568074A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft Somnium Infuser"
+			tasks: [{
+				id: "2C73A6F27A0E4763"
+				item: "theabyss:somnium_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["461B3A689879469D"]
+			id: "0EB2A852695FD14B"
+			rewards: [{
+				id: "724FB8E6D3A7C5C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft Arcane Workbench"
+			tasks: [{
+				id: "5D471E9F4FBCCE0C"
+				item: "theabyss:arcane_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["461B3A689879469D"]
+			id: "50FBA7D8216CDE79"
+			rewards: [{
+				id: "47380B41AC45E987"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft Mortar And Pestle"
+			tasks: [{
+				id: "4D5E902018CA3CD3"
+				item: "theabyss:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3848220311A457DA"]
+			description: ["Loran energy, used to power the various tools within the Abyss Mod. It should be mentioned that this crystal is very powerful but has limited use!"]
+			id: "7C2ABCA6C80DC5D2"
+			rewards: [
+				{
+					id: "742E0458CA5225C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 6
+					id: "16C59C37BFADA1A4"
+					item: "theabyss:loran"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Loran Energy"
+			tasks: [{
+				id: "1A800D08BB0BA73F"
+				item: {
+					Count: 1
+					id: "theabyss:loran_energy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Loran Energy, strong and surprisingly useful..."
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			hide_dependency_lines: true
+			id: "7E74A3C8F86E6ADF"
+			rewards: [{
+				id: "202A009C2AB8FC3B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4FC02C2FCA50652D"
+				item: "theabyss:fusion_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7E74A3C8F86E6ADF"]
+			id: "372BE3BE0271C4BB"
+			rewards: [{
+				id: "157574ACF5A284CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "36F252C31C3088B3"
+				item: {
+					Count: 1
+					id: "theabyss:fusion_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7E74A3C8F86E6ADF"]
+			id: "46F63E11B25EDC04"
+			rewards: [{
+				id: "6F4FA08DB4808BD9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78694AAD2D0EC099"
+				item: {
+					Count: 1
+					id: "theabyss:fusion_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7E74A3C8F86E6ADF"]
+			id: "36225E15F3E3581C"
+			rewards: [{
+				id: "47787E23F9078F27"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E0BC66D69492973"
+				item: {
+					Count: 1
+					id: "theabyss:fusion_armor_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7E74A3C8F86E6ADF"]
+			id: "63BF7F55D2E32E1D"
+			rewards: [{
+				id: "39479455DEBF7101"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C1AB7C4A5A7F0C8"
+				item: {
+					Count: 1
+					id: "theabyss:fusion_armor_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			hide_dependency_lines: true
+			id: "674FDE2FD08A06C7"
+			rewards: [{
+				id: "292BD724F104C6C4"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "71D0AB1E838F7A72"
+				item: "theabyss:aberythe_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["674FDE2FD08A06C7"]
+			id: "69EEB13BFD6A884D"
+			rewards: [{
+				id: "54CFEC6ADD4A9DFD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2C64A936F43CBD40"
+				item: {
+					Count: 1
+					id: "theabyss:aberythe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["674FDE2FD08A06C7"]
+			id: "76A70B26A693187B"
+			rewards: [{
+				id: "0902570EFB886B80"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B2C503C004B2679"
+				item: {
+					Count: 1
+					id: "theabyss:aberythe_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["674FDE2FD08A06C7"]
+			id: "2176E671B093F333"
+			rewards: [{
+				id: "76A772BC2FE85F63"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E2B56F237245CD9"
+				item: {
+					Count: 1
+					id: "theabyss:aberythe_armor_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["674FDE2FD08A06C7"]
+			id: "6EA32CE5E3F5270D"
+			rewards: [{
+				id: "3D12F95B7672EA68"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "51E898F821C96F02"
+				item: {
+					Count: 1
+					id: "theabyss:aberythe_armor_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			hide_dependency_lines: true
+			id: "2B81A018D30A5951"
+			rewards: [{
+				id: "2CE619C4576A993F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4E964FE91C5CF0F6"
+				item: "theabyss:glacerythe_gem"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2B81A018D30A5951"]
+			id: "22AE2A0495743FB7"
+			rewards: [{
+				id: "24FC5F3F26D95E3D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "34607E4BDEE64AE3"
+				item: {
+					Count: 1
+					id: "theabyss:glacerythe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2B81A018D30A5951"]
+			id: "2AE80F3FC4F2715E"
+			rewards: [{
+				id: "34FCF3777C43D8E3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0AA0F5784985C91B"
+				item: {
+					Count: 1
+					id: "theabyss:glacerythe_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2B81A018D30A5951"]
+			id: "4A944F4A8FCBAB6D"
+			rewards: [{
+				id: "73A771F35AE9FDC4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "29B88EE98916D230"
+				item: {
+					Count: 1
+					id: "theabyss:glacerythe_armor_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2B81A018D30A5951"]
+			id: "6CE8D92F5289710F"
+			rewards: [{
+				id: "36FCAEC82713CD05"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "02AF7F3E8B539470"
+				item: {
+					Count: 1
+					id: "theabyss:glacerythe_armor_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			hide_dependency_lines: true
+			id: "42ADED27AC175320"
+			rewards: [{
+				id: "7C82AE8AD37B07AC"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "7E178FB4B622A4EA"
+				item: "theabyss:ignisithe_gem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["42ADED27AC175320"]
+			id: "7E423872CD21B17E"
+			rewards: [{
+				id: "0A85AA80C4277E70"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0B9533C576BD0256"
+				item: {
+					Count: 1
+					id: "theabyss:ignisithe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["42ADED27AC175320"]
+			id: "010C5C2B073DDF1F"
+			rewards: [{
+				id: "5A0E975FBCC6CECC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0ABEF7922B6E8256"
+				item: {
+					Count: 1
+					id: "theabyss:ignisithe_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42ADED27AC175320"]
+			id: "26B31555311BB89D"
+			rewards: [{
+				id: "7BAF9FC0F156EAFD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2122EC076945D828"
+				item: {
+					Count: 1
+					id: "theabyss:ignisithe_armor_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["42ADED27AC175320"]
+			id: "3F30602E5225DC34"
+			rewards: [{
+				id: "2EBFF7D4BA08CB7D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6902333329F4D522"
+				item: {
+					Count: 1
+					id: "theabyss:ignisithe_armor_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1A87F2D486815915"]
+			id: "461B3A689879469D"
+			rewards: [{
+				id: "20B0DEE2BABD0DB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft Bottle of Somnium"
+			tasks: [{
+				id: "5FE3D7F916C41CB7"
+				item: "theabyss:bottle_of_somnium"
+				type: "item"
+			}]
+			title: "Consumable Somnium?"
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			icon: "theabyss:crystal_hand"
+			id: "5009605ABFA6F2F5"
+			rewards: [{
+				id: "6FB0152A4034E7A2"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Collect Crystal Hand"
+			tasks: [{
+				id: "63EB2E7AACF4D6D3"
+				item: "theabyss:crystal_hand"
+				type: "item"
+			}]
+			title: "Slay the Crystal Golem and collect it's hand!"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			id: "02573357358A4D25"
+			rewards: [{
+				id: "5575D2AFF96C96FB"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Collect Roka Horn"
+			tasks: [{
+				id: "6580793AB51BBC69"
+				item: "theabyss:roka_horn"
+				type: "item"
+			}]
+			title: "Slay the Roka and collect it's claw!"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: ["Soul Guards can be found within The Abyss inside of the Blue Forest. Be careful dangerous monsters lurk there."]
+			id: "11FC6554B8BDF899"
+			rewards: [{
+				id: "4330BEF1F3D4AD8D"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Collect x8 Soul Hearts"
+			tasks: [{
+				count: 8L
+				id: "6B9F3002A544F56B"
+				item: { Count: 8, id: "theabyss:soul_heart" }
+				type: "item"
+			}]
+			title: "Slay x8 Sould Guards and collect their hearts!!"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0EB2A852695FD14B"
+				"50FBA7D8216CDE79"
+			]
+			id: "66C75B6C201CD40D"
+			rewards: [{
+				id: "40926B9760F36240"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36BFC2AF0B9D2B36"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"5009605ABFA6F2F5"
+				"1BC48079FB643E1C"
+				"02573357358A4D25"
+			]
+			id: "75BDF90D5C78A729"
+			rewards: [{
+				id: "069604F48FED0E72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft Eye Of Abyss"
+			tasks: [{
+				id: "07247F3A215673A9"
+				item: "theabyss:eye_of_abyss"
+				type: "item"
+			}]
+			title: "The Eye Of Abyss, seems kinda important..."
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70B667A8738D3A1E"]
+			hide_dependency_lines: true
+			id: "14D464CDD19206B5"
+			rewards: [{
+				id: "0A3F818E2633A983"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E996D91F40D8ACF"
+				item: "theabyss:somnium_regen_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["70B667A8738D3A1E"]
+			hide_dependency_lines: true
+			id: "3BB8348A6705B769"
+			rewards: [{
+				id: "0E0F00B4B28820EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7905BE839FFDC870"
+				item: "theabyss:somnium_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["70B667A8738D3A1E"]
+			hide_dependency_lines: true
+			id: "1A0BB81A7FF032BC"
+			rewards: [{
+				id: "47E6B43BC89B06B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0736874A1615BCB4"
+				item: "theabyss:somnium_cooldown_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["70B667A8738D3A1E"]
+			hide_dependency_lines: true
+			id: "6747F8B5EDE40644"
+			rewards: [{
+				id: "0952DC267DCD3D12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DED43BFD965237C"
+				item: "theabyss:somnium_damage_upragde"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "4776E51C5ACDF304"
+			rewards: [{
+				id: "0E3139AF8417CEAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32324994687FACC0"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_reg"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "38C5FD298F4D82CE"
+			rewards: [{
+				id: "0716E182652986A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "03646442471C50B7"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_teleport"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "676CDBF2857BE2F8"
+			rewards: [{
+				id: "3E090C4889E98D4B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0AD09E75F4ECB3AB"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_eagle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "5F2D2336F75E7EEE"
+			rewards: [{
+				id: "01F586B55902CC9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "455D8C6C7BABC009"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_invisibility"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["66C75B6C201CD40D"]
+			id: "16817300D05FC90E"
+			rewards: [{
+				id: "678706326AE9DDD9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "315D8A48AC95DEA6"
+				title: "Rings"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "769D6DD6E4C6912E"
+			rewards: [{
+				id: "1FE636352D3123BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75FE586DE2EF0DD4"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_ocean"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "1FE3DE093CFA4480"
+			rewards: [{
+				id: "27D45FDA875DDAC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A9DA70634F58216"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_thunder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "106B5E5BC532A980"
+			rewards: [{
+				id: "0C817ADF5FC05681"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4522A791585CBAE9"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_freeze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "75E5CDB57A50A1AE"
+			rewards: [{
+				id: "01AE8CD3B49415CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05A95DED1E74BED2"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_telekinetic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "185A80524CE8B6EB"
+			rewards: [{
+				id: "5844639752A2D70D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6AB0E54A4EDFF251"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "6D2A65FE889A892A"
+			rewards: [{
+				id: "70718ED1728F8B21"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04AA3950702C86B0"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "1D36881DF7FB9CD7"
+			rewards: [{
+				id: "3591C137C942D545"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1ADD250D58F59785"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_time"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "2CD2220EEFBF8CA0"
+			rewards: [{
+				id: "00F1F32E34948DDC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A95D7B9D6D06BA3"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_jugger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "7CF37AA1F3AABAB5"
+			rewards: [{
+				id: "192DF1B5A64F36EE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1286E6F2FC889C2D"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_electro"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "1D6A0963FD9F66C9"
+			rewards: [{
+				id: "4859388671C8F751"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33EEE056E985773A"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_firestrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "537D5F9330D0AB50"
+			rewards: [{
+				id: "18500213DA6DA833"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FE18CB5E34E8398"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_blackstrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "7ED8669CCDE472C1"
+			rewards: [{
+				id: "0549063CCE876880"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BEB6F75AFC911DD"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_slide"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "2C4B2A717B44F59A"
+			rewards: [{
+				id: "528B5C3D3526906B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50E818B32B775001"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_curse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "45D08F05D9DB8F3A"
+			rewards: [{
+				id: "7F5462602BF12BDF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57C4B5BE76FAABEC"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_firestorm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "0D8A7FAD47A9D340"
+			rewards: [{
+				id: "1A757016D9C9C1F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E264B2F5DE0036C"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_nightblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "3AA6C67DFFF2D883"
+			rewards: [{
+				id: "733197A717A40579"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68C21CB45296FE02"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_home"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "72D603B747EF61BD"
+			rewards: [{
+				id: "5E7261CD33781E67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DCA077E485DF259"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_seeker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "60C9FA392C8E5E28"
+			rewards: [{
+				id: "4222D974578EA858"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E1D23082571E9CB"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_nature"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "35E42C4572B2EE0A"
+			rewards: [{
+				id: "234D6DB656F61E3A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A2214A2F23BE11A"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_flight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["16817300D05FC90E"]
+			hide_dependency_lines: true
+			id: "0B02FA032AA270A5"
+			rewards: [{
+				id: "39C2452CD0C0C256"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4748C04DCBF49242"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_fangs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["42240103A68DD7C4"]
+			id: "1BC48079FB643E1C"
+			rewards: [{
+				id: "306A0606E5D877E0"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Collect Elder Eye"
+			tasks: [{
+				id: "68E39A650E02062F"
+				item: "theabyss:elder_eye"
+				type: "item"
+			}]
+			title: "Slay the Elder and collect it's eye!"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75BDF90D5C78A729"]
+			description: ["Nightblade can be summoned by finding one of the many alters within The Abyss. First you must ignite the pillars using Soul Hearts, once done the Eye Of Abyss can be placed in the center to start the interaction. Be careful, Nightblade is a worthy foe and uses tricks to gain the advantage."]
+			icon: {
+				Count: 1
+				id: "theabyss:abyss_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D605606872AF405"
+			rewards: [{
+				id: "249443F3310A6009"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Kill Nightblade"
+			tasks: [{
+				entity: "theabyss:night_blade_boss_clone"
+				id: "4BE2EFE0BA25B399"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nightblade, a worthy foe."
+			x: -7.0d
+			y: -4.5d
+		}
+	]
+	title: "The Abyss: Chapter II"
+}
