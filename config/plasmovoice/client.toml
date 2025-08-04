@@ -2,7 +2,17 @@ debug = false
 disable_crowdin = false
 check_for_updates = true
 
-key_bindings = []
+[activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
+toggle = true
+type = "VOICE"
+[[key_bindings]]
+name = "key.plasmovoice.proximity.toggle"
+any_context = false
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 342
+type = "KEYSYM"
 
 [servers.274735b9-82dc-4878-b413-1f69d077439b.distances]
 4aec07ba-d109-3345-9a0a-92022a116cd0 = 16
@@ -14,9 +24,9 @@ enabled = true
 
 [voice]
 disabled = false
-microphone_disabled = false
+microphone_disabled = true
 activation_threshold = -30.0
-input_device = "Filtered Microphone for RZ19-0229 Gaming Microphone Analog Stereo Source"
+input_device = ""
 output_device = ""
 disable_input_device = false
 use_javax_input = false
