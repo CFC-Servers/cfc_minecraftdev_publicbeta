@@ -1,0 +1,16 @@
+filename = 'IntegratedScripting-1.20.1-1.0.14.jar'
+name = 'Integrated Scripting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4355b6578048d47998afd3c40365c2cfc19a3b37eb0efb0d59382107ab7532c4046214bec31df4dcd6f161a917cdb99c75e39e156a50fc787497558d0bf473af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uDJkuFRe/versions/I0Hluaye/IntegratedScripting-1.20.1-1.0.14.jar'
+
+[update.modrinth]
+mod-id = 'uDJkuFRe'
+version = 'I0Hluaye'

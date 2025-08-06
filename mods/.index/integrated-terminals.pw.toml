@@ -1,0 +1,16 @@
+filename = 'IntegratedTerminals-1.20.1-1.6.8.jar'
+name = 'Integrated Terminals'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '71fba7a65c16a09861d31f35e4819d24c44a503d3e065c4d9264c631af0e89fc810411d87d528edf8cb0d9514044cf50c925351dfc92cc9238e08eb1d2c9e20e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HmLJoQ1K/versions/aTJC5iT9/IntegratedTerminals-1.20.1-1.6.8.jar'
+
+[update.modrinth]
+mod-id = 'HmLJoQ1K'
+version = 'aTJC5iT9'

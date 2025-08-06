@@ -24,8 +24,8 @@ enabled = true
 
 [voice]
 disabled = false
-microphone_disabled = true
-activation_threshold = -30.0
+microphone_disabled = false
+activation_threshold = -40.0
 input_device = ""
 output_device = ""
 disable_input_device = false
@@ -39,6 +39,8 @@ directional_sources = false
 hrtf = false
 stereo_capture = false
 
+[voice.volumes.source_cfcf210a-a325-4075-92bf-365255756695]
+volume = 2.0
 [voice.volumes.proximity]
 volume = 1.0
 [voice.volumes.groups]
@@ -46,7 +48,7 @@ volume = 1.0
 
 [advanced]
 visualize_voice_distance = true
-visualize_voice_distance_on_join = false
+visualize_voice_distance_on_join = true
 compressor_threshold = -10
 limiter_threshold = -6
 directional_sources_angle = 145

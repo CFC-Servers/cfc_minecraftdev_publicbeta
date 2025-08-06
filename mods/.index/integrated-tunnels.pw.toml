@@ -1,0 +1,16 @@
+filename = 'IntegratedTunnels-1.20.1-1.8.42.jar'
+name = 'Integrated Tunnels'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5bcb65c30b5ba163e1250777f49ed0d46bd94d2b2cfd9fa9e5c40cd46433d4089c57a11d151c381d36f047eeeaa67e4b44ef355f5d9cfbf8efaf156bd393618b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Etqy1Omb/versions/NuNp0l1i/IntegratedTunnels-1.20.1-1.8.42.jar'
+
+[update.modrinth]
+mod-id = 'Etqy1Omb'
+version = 'NuNp0l1i'
