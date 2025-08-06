@@ -638,17 +638,6 @@
         "value": 999999
       }
     },
-    "gundurability:handling": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "hoths_tacz_damage_attributes:machinegun_damage": {
       "enabled": false,
       "min": {
@@ -669,6 +658,17 @@
       "max": {
         "default": 999999,
         "value": 999999
+      }
+    },
+    "gundurability:handling": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "hoths_tacz_damage_attributes:heavyweapons_damage": {

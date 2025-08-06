@@ -4,7 +4,7 @@ settings {
   offset_x = -272.0
   offset_y = 58.0
   inner_width = 200.0
-  inner_height = 300.0
+  inner_height = 1124.0
   snapping_side = top-right
   expanded = true
   visible = true
