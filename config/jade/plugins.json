@@ -72,6 +72,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "vampirism": {
     "altar_pillar": true,
     "weapon_table": true,

@@ -1,0 +1,16 @@
+filename = 'cratestuff-0.1.1.jar'
+name = 'Create: Crate Stuff'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '619df0a4ae8ad0e8148a6d2530cfda7bedefbefbec4627a49d44fceb305e9392aec77691c42504b8285a6f23148251ff6597d4c73298f50ca66df3b6aa5e7821'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Zp9oyA3Z/versions/53K6H8CS/cratestuff-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'Zp9oyA3Z'
+version = '53K6H8CS'

@@ -1,0 +1,16 @@
+filename = 'meproxy-1.0.1.jar'
+name = 'ME Proxy'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7e7de182f3e5777bd0a9bcbf056b98e011354ff9d45694f7de49a9647d7ce138497d96dddb051e150f4632b29cc5b5707cb97ffe1dcee3a7e37759e2ad53c5c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rs0mOrCn/versions/e3Uod9bJ/meproxy-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'rs0mOrCn'
+version = 'e3Uod9bJ'
